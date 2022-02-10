@@ -59,7 +59,7 @@ stg2bd@virginia.edu |
 
 #### **[This Resume](https://github.com/sgatewood/resume)**
 February 2022
-- I didn't have Microsoft Word anymore, so I decided to engineer this my own way. :-)
+- I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
 
 #### **Capstone Research**
 Fall 2019 - Spring 2020

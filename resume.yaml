@@ -95,7 +95,7 @@ projects:
     dates: February 2022
     link: "https://github.com/sgatewood/resume"
     notes:
-      - I didn't have Microsoft Word anymore, so I decided to engineer this my own way. :-)
+      - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
   - name: Capstone Research
     dates: Fall 2019 - Spring 2020
     notes:

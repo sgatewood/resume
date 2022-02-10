@@ -7,3 +7,5 @@ markdown, HTML, and PDF.
 
 Turns out the best way to convert HTML to a PDF is to open it in Safari and
 print it. :-)
+
+[This link](https://docs.google.com/viewer?url=https://github.com/sgatewood/resume/raw/main/rendered/resume.pdf) sends the current version to the google docs viewer.

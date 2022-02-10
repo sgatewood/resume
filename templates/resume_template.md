@@ -1,6 +1,8 @@
 # {{ name }}
 
-{{ contact.email }} | <{{ contact.linkedin }}> | <{{ contact.github }}>
+{{ contact.email }} |
+[{{ contact.linkedin }}](http://{{ contact.linkedin }}) |
+[{{ contact.github }}](http://{{ contact.github }})
 
 ---
 

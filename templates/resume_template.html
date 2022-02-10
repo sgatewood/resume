@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <div class="title">
+      <h1>{{ name }}</h1>
+      <p>
+        {{ contact.email }} |
+        <a href="http://{{ contact.linkedin }}">{{ contact.linkedin }}></a> |
+        <a href="http://{{ contact.github }}">{{ contact.github }}</a>
+      </p>
+    </div>
+
+
+    <h2 class="section-header" id="education">&gt;&gt; Education</h2><hr>
+    <p>
+      <strong>{{ education.school }}</strong> ({{education.graduation}}) {{ education['school titles'] | join(', ') }}
+    </p>
+    <ul>
+      <li>{{ education.degree }}. GPA {{ education.gpa }}</li>
+    </ul>
+    <p>
+      <strong>Notable Courses:</strong> {{ education['notable courses'] | join(', ') }}
+    </p>
+
+
+    <h2 class="section-header">&gt;&gt; Experience</h2><hr>
+    {% for job in experience %}
+    <h3 class="job-line"><u>{{ job.title }}, <span class="job-details">{{ job.company }} ({{ job.location }})</span></u> <span class="date">{{ job.dates }}</span></h3>
+    <ul>
+      <li>{{ job.notes | join('</li>\n\t\t\t<li>') }}</li>
+    </ul>
+    {% endfor %}
+
+
+    <h2 class="section-header">&gt;&gt; Skills <span id="skills-qualifier">(non-comprehensive, in order of proficiency)</span></h2><hr>
+    <ul>
+      <li><strong>Languages: </strong>{{ skills['main languages'] | join(', ') }}</li>
+      <li><strong>Other technologies: </strong>{{ skills['main other technologies'] | join(', ') }}</li>
+      <li><strong>Also worked with: </strong>{{ skills['also worked with'] | join(', ') }}</li>
+    </ul>
+
+    <h2 class="section-header">&gt;&gt; Projects</h2><hr>
+    {% for project in projects %}
+    <h3>
+      {% if 'link' in project %}
+      <a href="{{ project.link }}">{{ project.name }}</a>
+      {% else %}
+      {{ project.name }}
+      {% endif %}
+      <span class="date">
+        {{ project.dates }}
+      </span>
+    </h3>
+    <ul>
+      <li>{{ project.notes | join('</li>\n\t\t\t<li>') }}</li>
+    </ul>
+    {% endfor %}
+  </body>
+</html>

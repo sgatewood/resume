@@ -93,7 +93,7 @@ books:
 projects:
   - name: This Resume
     dates: February 2022
-    link: "##"
+    link: "https://github.com/sgatewood/resume"
     notes:
       - I didn't have Microsoft Word anymore, so I decided to engineer this my own way. :-)
   - name: Capstone Research

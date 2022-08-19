@@ -24,9 +24,11 @@ experience:
     dates: August 2020 - present
     notes:
       - Currently work on a SCRUM team that creates and maintains a variety of internal developer tooling and infrastructure.
-      - Helped design and implement a modern feature toggles framework for a legacy codebase. This project was pretty extensive and incorporated a variety of tooling and services.
+      - Helped design and implement a modern feature toggles framework for a legacy codebase. This project was pretty extensive and incorporated a variety of tooling and services, including the creation of standalone services with Kubernetes. 
       - Performed numerous spikes, some of which turned into real quarter-long features.
-      - Maintained very high code quality standards since our team's culture was to set good examples for the department.
+      - Ask me about my cool stateless graphs. :-)
+      - Regularly participated in (and sometimes initiated) architectural design discussions.
+      - Treasured high code quality standards since our team's culture was to set good examples for the department.
   - title: Software Engineering Intern
     company: Uber Advanced Technologies Group
     location: Pittsburgh, PA
@@ -81,6 +83,7 @@ skills:
     - Django
     - JQuery
     - Prometheus
+    - Argo CD
     - Google chat bots
     - Chrome Extensions
     - Intellij Plugins
@@ -91,7 +94,7 @@ books:
   - The Pragmatic Programmer
   - The Unicorn project
 projects:
-  - name: This Resume
+  - name: This Resume (woahhhhh 🤯)
     dates: February 2022
     link: "https://github.com/sgatewood/resume"
     notes:

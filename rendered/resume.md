@@ -18,9 +18,11 @@ stg2bd@virginia.edu |
 #### **Software Engineer II**, Appian Corporation
 (McLean, VA) August 2020 - present
 - Currently work on a SCRUM team that creates and maintains a variety of internal developer tooling and infrastructure.
-- Helped design and implement a modern feature toggles framework for a legacy codebase. This project was pretty extensive and incorporated a variety of tooling and services.
+- Helped design and implement a modern feature toggles framework for a legacy codebase. This project was pretty extensive and incorporated a variety of tooling and services, including the creation of standalone services with Kubernetes.
 - Performed numerous spikes, some of which turned into real quarter-long features.
-- Maintained very high code quality standards since our team's culture was to set good examples for the department.
+- Ask me about my cool stateless graphs. :-)
+- Regularly participated in (and sometimes initiated) architectural design discussions.
+- Treasured high code quality standards since our team's culture was to set good examples for the department.
 
 #### **Software Engineering Intern**, Uber Advanced Technologies Group
 (Pittsburgh, PA) May 2019 - August 2019
@@ -51,13 +53,13 @@ stg2bd@virginia.edu |
 
 - **Languages:** Python, Java, Bash, JavaScript, C++, Groovy / Kotlin
 - **Other technologies:** HTML, CSS, Gitlab pipelines, Feature Toggles / LaunchDarkly, Unit testing / mocking, Vim, Git, Kubernetes / Helm, SQL, Docker, Terraform / AWS, Functional programming, React
-- **Also worked with:** Gradle, Django, JQuery, Prometheus, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
+- **Also worked with:** Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 
 ---
 
 ## 💻 Projects
 
-#### **[This Resume](https://github.com/sgatewood/resume)**
+#### **[This Resume (woahhhhh 🤯)](https://github.com/sgatewood/resume)**
 February 2022
 - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
 

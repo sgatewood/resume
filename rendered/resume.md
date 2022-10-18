@@ -20,8 +20,7 @@ stg2bd@virginia.edu |
 - Currently work on a SCRUM team that creates and maintains a variety of internal developer tooling and infrastructure.
 - Helped design and implement a modern feature toggles framework for a legacy codebase. This project was pretty extensive and incorporated a variety of tooling and services, including the creation of standalone services with Kubernetes.
 - Performed numerous spikes, some of which turned into real quarter-long features.
-- Ask me about my cool stateless graphs. :-)
-- Regularly participated in (and sometimes initiated) architectural design discussions.
+- Regularly initiated & participated in architectural design discussions.
 - Treasured high code quality standards since our team's culture was to set good examples for the department.
 
 #### **Software Engineering Intern**, Uber Advanced Technologies Group
@@ -59,7 +58,7 @@ stg2bd@virginia.edu |
 
 ## 💻 Projects
 
-#### **[This Resume (woahhhhh 🤯)](https://github.com/sgatewood/resume)**
+#### **[This Resume](https://github.com/sgatewood/resume)**
 February 2022
 - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
 

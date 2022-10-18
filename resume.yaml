@@ -26,8 +26,7 @@ experience:
       - Currently work on a SCRUM team that creates and maintains a variety of internal developer tooling and infrastructure.
       - Helped design and implement a modern feature toggles framework for a legacy codebase. This project was pretty extensive and incorporated a variety of tooling and services, including the creation of standalone services with Kubernetes. 
       - Performed numerous spikes, some of which turned into real quarter-long features.
-      - Ask me about my cool stateless graphs. :-)
-      - Regularly participated in (and sometimes initiated) architectural design discussions.
+      - Regularly initiated & participated in architectural design discussions.
       - Treasured high code quality standards since our team's culture was to set good examples for the department.
   - title: Software Engineering Intern
     company: Uber Advanced Technologies Group
@@ -94,7 +93,7 @@ books:
   - The Pragmatic Programmer
   - The Unicorn project
 projects:
-  - name: This Resume (woahhhhh 🤯)
+  - name: This Resume
     dates: February 2022
     link: "https://github.com/sgatewood/resume"
     notes:

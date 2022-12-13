@@ -7,7 +7,7 @@ define render
 	$(PYTHON_CMD) $(TEMPLATES_DIR)/$(1) $(RESUME_YAML) > $(OUTPUT_FOLDER)/$(2)
 endef
 
-all: html md
+all: html md pdf
 
 html:
 	$(call render,resume_template.html,resume.html)
@@ -15,3 +15,7 @@ html:
 
 md:
 	$(call render,resume_template.md,resume.md)
+
+pdf:
+	cd python && poetry run python3 generate_pdf.py
+	open -a "Google Chrome" rendered/resume.pdf

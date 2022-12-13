@@ -79,4 +79,3 @@ Spring 2019
 #### **[Office Hours Chrome Extension](https://chrome.google.com/webstore/detail/oh-alerts/lfbigjgebeoclpdgcbdnjemefefbngab)**
 Fall 2018
 - Created a Chrome extension to notify TAs when a student needs help in Office Hours.
-

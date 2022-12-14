@@ -1,8 +1,14 @@
 name: Sean Gatewood
 contact:
   email: stg2bd@virginia.edu
-  linkedin: linkedin.com/in/sean-t-gatewood
-  github: github.com/sgatewood
+  linkedin:
+    link: https://linkedin.com/in/sean-t-gatewood
+    handle: sean-t-gatewood
+    icon: linkedin-icon.png
+  github:
+    link: https://github.com/sgatewood
+    handle: sgatewood
+    icon: github-icon.png
 education:
   school: University of Virginia
   school titles:

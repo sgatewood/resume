@@ -54,3 +54,10 @@ ul {
   font-size: 80%;
   color: #3d3d3d;
 }
+
+img.icon-img {
+  width: 18px;
+  position: relative;
+  top: 3px;
+  margin-right: 4px;
+}

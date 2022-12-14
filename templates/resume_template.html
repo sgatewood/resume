@@ -12,8 +12,8 @@
       <h1>{{ name }}</h1>
       <p>
         {{ contact.email }} |
-        <a href="http://{{ contact.linkedin }}">{{ contact.linkedin }}</a> |
-        <a href="http://{{ contact.github }}">{{ contact.github }}</a>
+        <a href="{{ contact.linkedin.link }}"><img class="icon-img" src="data:;base64,{{ icon_file_to_base64_string(contact.linkedin.icon) }}">{{ contact.linkedin.handle }}</a> |
+        <a href="{{ contact.github.link }}"><img class="icon-img" src="data:;base64,{{ icon_file_to_base64_string(contact.github.icon) }}">{{ contact.github.handle }}</a>
       </p>
     </div>
 

@@ -1,3 +1,4 @@
+import base64
 import pathlib
 import shutil
 
@@ -8,6 +9,7 @@ from jinja2 import Template
 root_dir = pathlib.Path("..")
 templates_dir = root_dir / "templates"
 output_dir = root_dir / "rendered"
+assets_dir = root_dir / "assets"
 css_file = root_dir / "style.css"
 
 
@@ -17,8 +19,10 @@ class TemplateFile:
         self.template_file = template_file
 
     def render_using(self, yaml_file: pathlib.Path, output_file: pathlib.Path) -> None:
+        template = Template(self.template_file.read_text())
+        template.globals["icon_file_to_base64_string"] = icon_file_to_base64_string
         output_file.write_text(
-            Template(self.template_file.read_text()).render(
+            template.render(
                 yaml.load(yaml_file.read_text(), yaml.Loader)
             )
         )
@@ -29,6 +33,7 @@ def setup_directories() -> None:
         shutil.rmtree(output_dir)
     output_dir.mkdir()
     (output_dir / css_file.name).symlink_to(css_file)  # Makes the HTML work locally
+    (output_dir / assets_dir.name).symlink_to(assets_dir)
 
 
 def render_templates() -> None:
@@ -47,6 +52,12 @@ def generate_pdf() -> None:
             "page-size": "Letter",
             "enable-local-file-access": ""
         })
+
+
+def icon_file_to_base64_string(icon_file_name: str) -> str:
+    image_data = (assets_dir / icon_file_name).read_bytes()
+    return base64.b64encode(image_data).decode()
+
 
 if __name__ == "__main__":
     setup_directories()

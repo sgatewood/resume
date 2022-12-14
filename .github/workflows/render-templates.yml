@@ -1,5 +1,12 @@
 name: Render templates
-on: [push]
+on:
+  push:
+    paths:
+      - templates/*
+      - python/*
+      - .github/workflows/*
+      - style.css
+      - resume.yaml
 jobs:
   Render-Templates:
     runs-on: ubuntu-latest

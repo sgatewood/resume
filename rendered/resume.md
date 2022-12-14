@@ -1,8 +1,8 @@
 # Sean Gatewood
 
 stg2bd@virginia.edu |
-[linkedin.com/in/sean-t-gatewood](http://linkedin.com/in/sean-t-gatewood) |
-[github.com/sgatewood](http://github.com/sgatewood)
+[LinkedIn](https://linkedin.com/in/sean-t-gatewood) |
+[GitHub](https://github.com/sgatewood)
 
 ---
 

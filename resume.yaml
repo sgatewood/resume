@@ -118,7 +118,6 @@ projects:
       - Created a quick program to help us sort out TA office hours and lab preferences using Max Flow.
   - name: Yelp for Off-Grounds Housing
     dates: Spring 2019
-    link: http://segfaulters3240.herokuapp.com
     notes:
       - Worked on a team of developers to create a Django app to help students browse housing in Charlottesville.
   - name: Office Hours Chrome Extension

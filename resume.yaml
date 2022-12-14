@@ -110,9 +110,7 @@ projects:
   - name: Capstone Research
     dates: Fall 2019 - Spring 2020
     notes:
-      - Worked on a team to create an "automated advising assistant" (Django/React app) for UVA students.
-      - Would have helped students come up with a long-term course plan based on a weighted scheduling algorithm
-      - "Sub-team: Full-Stack/Applications Team"
+      - Developed an "automated advising assistant" (Django/React app) to help UVA students create a long-term course plan based on a weighted scheduling algorithm. Worked on the Full-Stack/Application Team, and personally played a key role in integrating the code between teams.
   - name: TA sorter
     dates: Spring 2019
     link: https://github.com/sgatewood/TA_Sorter

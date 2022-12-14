@@ -49,9 +49,9 @@ jobs:
               git checkout -b ci-auto-render-templates
               git push origin ci-auto-render-templates
               gh pr create --base main --fill
-              gh pr merge --auto --delete-branch
+              gh pr merge --merge --auto --delete-branch
             else
-              git push
+              echo "Looks good"
             fi
           else
             echo "No changes :-)"

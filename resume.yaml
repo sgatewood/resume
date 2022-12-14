@@ -75,7 +75,7 @@ skills:
   main other technologies:
     - HTML
     - CSS
-    - Gitlab pipelines
+    - GitLab pipelines
     - Feature Toggles / LaunchDarkly
     - Unit testing / mocking
     - Vim

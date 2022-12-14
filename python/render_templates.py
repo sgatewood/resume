@@ -41,7 +41,7 @@ def render_templates() -> None:
 def generate_pdf() -> None:
     pdfkit.from_file(
         input=str(output_dir / "resume.html"),
-        output_path=output_dir / "resume.pdf",
+        output_path=output_dir / "sean-gatewood-resume.pdf",
         css=css_file,
         options={"enable-local-file-access": ""})
 

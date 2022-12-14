@@ -42,7 +42,6 @@ experience:
     notes:
       - Developed implementations for a low-level key-value store using various database technologies (e.g. LevelDB, Sqlite3).
       - Performed an experiment using Google Benchmark to measure the relative performances of implementations.
-      - Gained experience with real-world workflows and development systems.
       - Presented results to Uber ATG software engineers.
   - title: Teaching Assistant - Introduction to Programming
     company: University of Virginia

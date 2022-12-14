@@ -30,6 +30,8 @@ jobs:
         working-directory: python
 
       - name: Commit if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [[ `git status --porcelain` ]]; then
             git config --global user.name 'Sean Gatewood'

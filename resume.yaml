@@ -50,6 +50,8 @@ experience:
       - Assisted hundreds of students with introductory programming concepts in Python.
       - Created <a href="https://www.youtube.com/playlist?list=PLeih3T8PoRaYXpRwCVUmCEQqzZ51qyAmD">review videos</a> that have received over 13,000 views.
       - Helped manage the course as one of four "Head TAs."
+      - Saved TA time / effort by automating the grading of a remote google docs exam question (managed to export every exam document as HTML in a loop, making them parseable).
+      - Worked with many students directly in office hours, pushing my belief that anyone can learn to code.
   - title: Software Engineering Intern
     company: NASA Langley Research Center
     location: Hampton, VA

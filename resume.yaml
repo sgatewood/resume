@@ -63,7 +63,7 @@ experience:
       - Added HDF file compatibility to NASA’s <a href="https://www-air.larc.nasa.gov/missions/TOLNet/tools/FTScan.zip">TOLNet File Format Scanner and Curtain/Profiles Plotter</a>.
       - Engineered a <a href="https://www-air.larc.nasa.gov/cgi-bin/Driver.cgi?platform=KORUSAQ/DC8_AIRCRAFT">full-stack web application</a> (JQuery, AJAX, cgi, C++) for atmospheric researchers to create customized data merges.
       - Presented a working prototype to atmospheric researchers and received design feedback.
-      - Continued as a "casual employee" of Science Systems and Applications, Inc (SSAI) to continue work on the merge tool.
+      - Continued part-time development during the fall and spring semesters to harden the merge tool.
 skills:
   main languages:
     - Python

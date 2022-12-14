@@ -43,8 +43,10 @@ def generate_pdf() -> None:
         input=str(output_dir / "resume.html"),
         output_path=output_dir / "sean-gatewood-resume.pdf",
         css=css_file,
-        options={"enable-local-file-access": ""})
-
+        options={
+            "page-size": "Letter",
+            "enable-local-file-access": ""
+        })
 
 if __name__ == "__main__":
     setup_directories()

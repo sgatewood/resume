@@ -40,7 +40,7 @@ experience:
     location: Pittsburgh, PA
     dates: May 2019 - August 2019
     notes:
-      - Developed implementations for a low-level key-value store using various database technologies (e.g. LevelDB, Sqlite3)
+      - Developed implementations for a low-level key-value store using various database technologies (e.g. LevelDB, Sqlite3).
       - Performed an experiment using Google Benchmark to measure the relative performances of implementations.
       - Gained experience with real-world workflows and development systems.
       - Presented results to Uber ATG software engineers.

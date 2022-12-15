@@ -51,6 +51,7 @@ jobs:
               gh pr create --base main --fill
               gh pr merge --merge --auto --delete-branch
             else
+              git push
               echo "Looks good"
             fi
           else

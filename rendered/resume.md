@@ -20,12 +20,14 @@ stg2bd@virginia.edu |
 - Member of a SCRUM team that creates and maintains a variety of developer tooling and infrastructure.
 - Contributed to a remote development solution, including a custom Kubernetes service to lease EC2s and a python tool to build/develop/test the product remotely (rather than on your own machine).
 - Architected and developed a pipeline to create warm builds that developers can take and use instantly rather than waiting to build from source.
-- Helped design and implement a modern feature toggles framework for a legacy codebase. Designed and implemented an internal dashboard allowing developers to easily change toggle values on internal sites.
+- Regularly developed GitLab pipelines, running Bash and Python within custom docker containers.
+- Helped design and implement a modern feature toggles framework for a legacy codebase. Designed and implemented an internal dashboard allowing developers to easily change toggle values on internal sites. Developed and tested mission-critical Bash to set up feature toggle infrastructure.
 - Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).
 - Regularly initiated & led architectural design discussions.
 - Regularly assisted developers in troubleshooting technical issues, both to help unblock them and to find ways to improve our local build stability.
 - Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality and component health.
 - Mentored two interns as a Summer Intern Manager, meeting with them weekly to optimize their internship experience.
+- Developed in a unix environment (macOs).
 
 #### **Software Engineering Intern**, Uber Advanced Technologies Group
 (Pittsburgh, PA) May 2019 - August 2019
@@ -55,7 +57,7 @@ stg2bd@virginia.edu |
 (non-comprehensive, in order of proficiency)
 
 - **Languages:** Python, Java, Bash, JavaScript, C++, Groovy / Kotlin
-- **Other technologies:** HTML, CSS, GitLab pipelines, Feature Toggles / LaunchDarkly, Unit testing / mocking, Vim, Git, Kubernetes / Helm, SQL, Docker, Terraform / AWS, Functional programming, React
+- **Other technologies:** Linux, HTML, CSS, GitLab pipelines, Feature Toggles / LaunchDarkly, Unit testing / mocking, Vim, Git, Kubernetes / Helm, SQL, Docker, Terraform / AWS, Functional programming, React
 - **Also worked with:** Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 
 ---

@@ -29,7 +29,7 @@ stg2bd@virginia.edu |
 
 #### **Software Engineering Intern**, Uber Advanced Technologies Group
 (Pittsburgh, PA) May 2019 - August 2019
-- Developed and benchmarked alternate implementations for a key-value store using various database technologies (e.g. LevelDB, Sqlite3).
+- Developed and benchmarked alternate implementations for a key-value store in C++ using various database technologies (e.g. LevelDB, Sqlite3).
 - Presented results to Uber ATG software engineers.
 
 #### **Teaching Assistant - Introduction to Programming**, University of Virginia

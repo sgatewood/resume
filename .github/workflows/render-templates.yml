@@ -52,6 +52,7 @@ jobs:
               gh pr merge --merge --auto --delete-branch
             else
               echo "Looks good"
+              git push
             fi
           else
             echo "No changes :-)"

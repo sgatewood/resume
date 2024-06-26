@@ -15,8 +15,14 @@ stg2bd@virginia.edu |
 
 ## 💼 Experience
 
+#### **DevOps Engineer**, Digital Asset
+(New York, New York / remote) April 2023 - present
+- Develop and maintain infrastructure around critical k8s services.
+- Automated the entire (from-scratch) deployment of a critical service its own cluster with all the cloud infrastructure it needed. Instrumented monitoring as well, and regularly use it to tune our configuration.
+- Authored a custom k8s operator in Go to satisfy a particular business need.
+
 #### **Software Engineer II**, Appian Corporation
-(McLean, VA) August 2020 - present
+(McLean, VA / remote) August 2020 - April 2023
 - Member of a SCRUM team that creates and maintains a variety of developer tooling and infrastructure.
 - Contributed to a remote development solution, including a custom Kubernetes service to lease EC2s and a python tool to build/develop/test the product remotely (rather than on your own machine).
 - Architected and developed a pipeline to create warm builds that developers can take and use instantly rather than waiting to build from source.

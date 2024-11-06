@@ -19,14 +19,14 @@ stg2bd@virginia.edu |
 (New York, New York / remote) April 2023 - present
 - Develop and maintain infrastructure around critical k8s services.
 - Automated the entire (from-scratch) deployment of a critical service its own cluster with all the cloud infrastructure it needed. Instrumented monitoring as well, and regularly use it to tune our configuration.
+- Regularly engineered automation to seamlessly navigate complex migrations in production with minimal downtime.
 - Authored a custom k8s operator in Go to satisfy a particular business need.
 
 #### **Software Engineer II**, Appian Corporation
 (McLean, VA / remote) August 2020 - April 2023
-- Member of a SCRUM team that creates and maintains a variety of developer tooling and infrastructure.
+- Member of a scrum team that created and maintained a variety of developer tooling and infrastructure.
 - Contributed to a remote development solution, including a custom Kubernetes service to lease EC2s and a python tool to build/develop/test the product remotely (rather than on your own machine).
 - Architected and developed a pipeline to create warm builds that developers can take and use instantly rather than waiting to build from source.
-- Helped design and implement a modern feature toggles framework for a legacy codebase. Designed and implemented an internal dashboard allowing developers to easily change toggle values on internal sites.
 - Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).
 - Regularly initiated & led architectural design discussions.
 - Regularly assisted developers in troubleshooting technical issues, both to help unblock them and to find ways to improve our local build stability.
@@ -60,9 +60,9 @@ stg2bd@virginia.edu |
 ## 💪 Skills
 (non-comprehensive, in order of proficiency)
 
-- **Languages:** Python, Java, Bash, JavaScript, C++, Groovy / Kotlin
-- **Other technologies:** HTML, CSS, GitLab pipelines, Feature Toggles / LaunchDarkly, Unit testing / mocking, Vim, Git, Kubernetes / Helm, SQL, Docker, Terraform / AWS, Functional programming, React
-- **Also worked with:** Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
+- **Languages:** Python, Bash, Go, Java, JavaScript, C++, Groovy / Kotlin
+- **Other technologies:** Kubernetes, Terraform, Helm, GitLab pipelines, Feature Toggles / LaunchDarkly, Unit testing / mocking, Vim, Git, SQL, Docker, Terraform / AWS, Functional programming
+- **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 
 ---
 
@@ -71,6 +71,7 @@ stg2bd@virginia.edu |
 #### **[This Resume](https://github.com/sgatewood/resume)**
 February 2022
 - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
+- This was just more fun than LaTeX
 
 #### **Capstone Research**
 Fall 2019 - Spring 2020

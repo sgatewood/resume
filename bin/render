@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+poetry --directory "${REPO_ROOT}/python" run python3 "${REPO_ROOT}/python/render_templates.py"
+
+if [[ "${1}" == "--open" ]]; then
+  open -a "Google Chrome" "${REPO_ROOT}/rendered/sean-gatewood-resume.pdf"
+fi

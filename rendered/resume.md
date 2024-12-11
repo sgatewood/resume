@@ -18,9 +18,10 @@ stg2bd@virginia.edu |
 #### **DevOps Engineer**, Digital Asset
 (New York, New York / remote) April 2023 - present
 - Develop and maintain infrastructure around critical k8s services.
-- Automated the entire (from-scratch) deployment of a critical service its own cluster with all the cloud infrastructure it needed. Instrumented monitoring as well, and regularly use it to tune our configuration.
+- Automated the entire (from-scratch) deployment of a critical service its own cluster with all the cloud infrastructure it needed. Utilized GCP, terraform, jsonnet, bash, and helm. Instrumented monitoring/alerts with DataDog as well, and regularly use it to tune our configuration.
 - Regularly engineered automation to seamlessly navigate complex migrations in production with minimal downtime.
 - Authored a custom k8s operator in Go to satisfy a particular business need.
+- Developed CI/CD pipelines using Google Cloud Build and CircleCI.
 
 #### **Software Engineer II**, Appian Corporation
 (McLean, VA / remote) August 2020 - April 2023

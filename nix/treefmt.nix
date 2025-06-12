@@ -2,8 +2,10 @@
 {
   projectRootFile = "flake.nix";
   programs = builtins.mapAttrs (k: v: v // { enable = true; }) {
-    nixfmt = { };
+    black = { };
+    isort = { };
     just = { };
+    nixfmt = { };
     shfmt = {
       includes = [
         ".envrc"

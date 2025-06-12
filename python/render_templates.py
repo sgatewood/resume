@@ -22,9 +22,7 @@ class TemplateFile:
         template = Template(self.template_file.read_text())
         template.globals["icon_file_to_base64_string"] = icon_file_to_base64_string
         output_file.write_text(
-            template.render(
-                yaml.load(yaml_file.read_text(), yaml.Loader)
-            )
+            template.render(yaml.load(yaml_file.read_text(), yaml.Loader))
         )
 
 
@@ -32,13 +30,17 @@ def setup_directories() -> None:
     if output_dir.exists():
         shutil.rmtree(output_dir)
     output_dir.mkdir()
-    (output_dir / css_file.name).symlink_to(css_file.relative_to(output_dir, walk_up=True))  # Makes the HTML work locally
-    (output_dir / assets_dir.name).symlink_to(assets_dir.relative_to(output_dir, walk_up=True))
+    (output_dir / css_file.name).symlink_to(
+        css_file.relative_to(output_dir, walk_up=True)
+    )  # Makes the HTML work locally
+    (output_dir / assets_dir.name).symlink_to(
+        assets_dir.relative_to(output_dir, walk_up=True)
+    )
 
 
 def render_templates() -> None:
     resume_yaml = repo_root / "resume.yaml"
-    for file in templates_dir.glob('**/*'):
+    for file in templates_dir.glob("**/*"):
         output_file = output_dir / file.with_stem("resume").name
         TemplateFile(file).render_using(resume_yaml, output_file)
 
@@ -48,10 +50,8 @@ def generate_pdf() -> None:
         input=str(output_dir / "resume.html"),
         output_path=output_dir / "sean-gatewood-resume.pdf",
         css=css_file,
-        options={
-            "page-size": "Letter",
-            "enable-local-file-access": ""
-        })
+        options={"page-size": "Letter", "enable-local-file-access": ""},
+    )
 
 
 def icon_file_to_base64_string(icon_file_name: str) -> str:

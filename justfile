@@ -3,8 +3,8 @@ help:
   @just -l
 
 # renders templates
-render open="false":
-  poetry --directory "${REPO_ROOT}/python" run python3 "${REPO_ROOT}/python/render_templates.py"
+render:
+  poetry --directory "${REPO_ROOT}/python" run python3 "${REPO_ROOT}/python/resume/render_templates.py"
 
 # opens the rendered PDF in Google Chrome
 open-pdf:
@@ -14,6 +14,20 @@ open-pdf:
 format:
   nix fmt
 
+# installs poetry packages
+poetry-install:
+  poetry --directory "${REPO_ROOT}/python" install
+
+_border:
+  #!/usr/bin/env bash
+  set -euo pipefail
+
+  screen_width=$(tput cols)
+  echo -en '{{BOLD}}{{MAGENTA}}'
+  printf '=%.0s' $(seq 1 "${screen_width}")
+  echo -en '{{NORMAL}}'
+
 alias r := render
 alias o := open-pdf
 alias fmt := format
+alias pi := poetry-install

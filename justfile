@@ -4,7 +4,7 @@ help:
 
 # renders templates
 render:
-  poetry --directory "${REPO_ROOT}/python" run python3 "${REPO_ROOT}/python/resume/render_templates.py"
+  @just poetry run python3 "${REPO_ROOT}/python/resume/render_templates.py"
 
 # opens the rendered PDF in Google Chrome
 open-pdf:
@@ -14,9 +14,17 @@ open-pdf:
 format:
   nix fmt
 
+# checks if the tree is formatted
+format-check:
+  nix flake check --impure
+
+# wraps poetry with the correct directory
+poetry *args:
+  poetry --directory "${REPO_ROOT}/python" {{args}}
+
 # installs poetry packages
 poetry-install:
-  poetry --directory "${REPO_ROOT}/python" install
+  @just poetry install
 
 _border:
   #!/usr/bin/env bash
@@ -27,7 +35,22 @@ _border:
   printf '=%.0s' $(seq 1 "${screen_width}")
   echo -en '{{NORMAL}}'
 
+# checks if there are changes on this worktree (used by CI)
+check-for-changes:
+  #!/usr/bin/env bash
+  set -euox pipefail
+
+  if git status --porcelain | grep -v 'rendered/sean-gatewood-resume.pdf'; then
+    echo "^^ changes found"
+    echo "please run 'just render' to update rendered files"
+    exit 1
+  else
+    echo "No changes :-)"
+  fi
+
 alias r := render
 alias o := open-pdf
 alias fmt := format
+alias fc := format-check
+alias p := poetry
 alias pi := poetry-install

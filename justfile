@@ -3,8 +3,8 @@ help:
   @just -l
 
 # renders templates
-render open="false":
-  poetry --directory "${REPO_ROOT}/python" run python3 "${REPO_ROOT}/python/render_templates.py"
+render:
+  poetry --directory "${REPO_ROOT}/python" run python3 "${REPO_ROOT}/python/resume/render_templates.py"
 
 # opens the rendered PDF in Google Chrome
 open-pdf:

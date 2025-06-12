@@ -4,7 +4,7 @@ help:
 
 # renders templates
 render:
-  poetry --directory "${REPO_ROOT}/python" run python3 "${REPO_ROOT}/python/resume/render_templates.py"
+  @just poetry run python3 "${REPO_ROOT}/python/resume/render_templates.py"
 
 # opens the rendered PDF in Google Chrome
 open-pdf:
@@ -14,9 +14,13 @@ open-pdf:
 format:
   nix fmt
 
+# wraps poetry with the correct directory
+poetry *args:
+  poetry --directory "${REPO_ROOT}/python" {{args}}
+
 # installs poetry packages
 poetry-install:
-  poetry --directory "${REPO_ROOT}/python" install
+  @just poetry install
 
 _border:
   #!/usr/bin/env bash
@@ -30,4 +34,5 @@ _border:
 alias r := render
 alias o := open-pdf
 alias fmt := format
+alias p := poetry
 alias pi := poetry-install

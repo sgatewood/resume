@@ -11,6 +11,7 @@
         ".envrc"
       ];
     };
+    yamlfmt = { };
   };
 
   settings.global.excludes = [

@@ -6,7 +6,7 @@ import pdfkit
 import yaml
 from jinja2 import Template
 
-repo_root = pathlib.Path(__file__).parent.parent
+repo_root = pathlib.Path(__file__).parent.parent.parent
 templates_dir = repo_root / "templates"
 output_dir = repo_root / "rendered"
 assets_dir = repo_root / "assets"

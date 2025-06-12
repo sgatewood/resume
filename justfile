@@ -35,6 +35,21 @@ _border:
   printf '=%.0s' $(seq 1 "${screen_width}")
   echo -en '{{NORMAL}}'
 
+# checks if there are changes on this worktree (used by CI)
+check-for-changes:
+  #!/usr/bin/env bash
+  set -euo pipefail
+
+  files_changed=$(git status --porcelain | grep -v 'rendered/sean-gatewood-resume.pdf')
+
+  if [ -z "${files_changed}" ]; then
+    echo "No changes :-)"
+  else
+    echo "changes found"
+    echo "please run 'just render' to update rendered files"
+    exit 1
+  fi
+
 alias r := render
 alias o := open-pdf
 alias fmt := format

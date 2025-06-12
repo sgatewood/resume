@@ -40,15 +40,12 @@ check-for-changes:
   #!/usr/bin/env bash
   set -euox pipefail
 
-  files_changed=$(git status --porcelain | grep -v 'rendered/sean-gatewood-resume.pdf')
-
-  if [ -z "${files_changed}" ]; then
-    echo "No changes :-)"
-  else
-    echo "changes found:"
-    git status --porcelain
+  if git status --porcelain | grep -v 'rendered/sean-gatewood-resume.pdf'; then
+    echo "^^ changes found"
     echo "please run 'just render' to update rendered files"
     exit 1
+  else
+    echo "No changes :-)"
   fi
 
 alias r := render

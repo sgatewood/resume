@@ -14,6 +14,10 @@ open-pdf:
 format:
   nix fmt
 
+# checks if the tree is formatted
+format-check:
+  nix flake check --impure
+
 # wraps poetry with the correct directory
 poetry *args:
   poetry --directory "${REPO_ROOT}/python" {{args}}
@@ -34,5 +38,6 @@ _border:
 alias r := render
 alias o := open-pdf
 alias fmt := format
+alias fc := format-check
 alias p := poetry
 alias pi := poetry-install

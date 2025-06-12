@@ -15,12 +15,10 @@ jobs:
       - uses: cachix/install-nix-action@v31
       - uses: nicknovitski/nix-develop@v1
 
-      - run: poetry install --no-interaction --no-root
-        working-directory: python
+      - run: just poetry-install
         if: steps.cache-deps.outputs.cache-hit != 'true'
 
-      - run: poetry run python3 render_templates.py
-        working-directory: python
+      - run: just render
 
       - name: Commit if changed
         env:

@@ -2,7 +2,8 @@
 pkgs.mkShell {
   packages = with pkgs; [
     just
-    python3
     poetry
+    python3
+    wkhtmltopdf
   ];
 }

@@ -14,6 +14,11 @@ open-pdf:
 format:
   nix fmt
 
+# installs poetry packages
+poetry-install:
+  poetry --directory "${REPO_ROOT}/python" install
+
 alias r := render
 alias o := open-pdf
 alias fmt := format
+alias pi := poetry-install

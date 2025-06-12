@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: cachix/install-nix-action@v31
-      - uses: nicknovitski/nix-develop@v1
+      - uses: HatsuneMiku3939/direnv-action@v1
 
       - run: just poetry-install
         if: steps.cache-deps.outputs.cache-hit != 'true'

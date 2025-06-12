@@ -18,6 +18,15 @@ format:
 poetry-install:
   poetry --directory "${REPO_ROOT}/python" install
 
+_border:
+  #!/usr/bin/env bash
+  set -euo pipefail
+
+  screen_width=$(tput cols)
+  echo -en '{{BOLD}}{{MAGENTA}}'
+  printf '=%.0s' $(seq 1 "${screen_width}")
+  echo -en '{{NORMAL}}'
+
 alias r := render
 alias o := open-pdf
 alias fmt := format

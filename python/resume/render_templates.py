@@ -19,7 +19,7 @@ class TemplateFile:
         self.template_file = template_file
 
     def render_using(self, yaml_file: pathlib.Path, output_file: pathlib.Path) -> None:
-        template = Template(self.template_file.read_text())
+        template = Template(self.template_file.read_text(), comment_start_string='<no jinja comments>')
         template.globals["icon_file_to_base64_string"] = icon_file_to_base64_string
         output_file.write_text(
             template.render(yaml.load(yaml_file.read_text(), yaml.Loader))

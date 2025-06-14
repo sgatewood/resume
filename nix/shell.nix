@@ -4,6 +4,7 @@ pkgs.mkShell {
     just
     poetry
     python3
+    texlive.combined.scheme-full
     wkhtmltopdf
   ];
 }

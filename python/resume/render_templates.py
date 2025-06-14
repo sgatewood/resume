@@ -1,10 +1,18 @@
 import base64
+import logging
+import os
 import pathlib
+import shlex
 import shutil
+import subprocess
 
 import pdfkit
 import yaml
 from jinja2 import Template
+
+log_level = os.getenv("LOG_LEVEL", "WARNING").upper()
+logging.basicConfig(level=getattr(logging, log_level))
+log = logging.getLogger("resume_renderer")
 
 repo_root = pathlib.Path(__file__).parent.parent.parent
 templates_dir = repo_root / "templates"
@@ -19,7 +27,9 @@ class TemplateFile:
         self.template_file = template_file
 
     def render_using(self, yaml_file: pathlib.Path, output_file: pathlib.Path) -> None:
-        template = Template(self.template_file.read_text(), comment_start_string='<no jinja comments>')
+        template = Template(
+            self.template_file.read_text(), comment_start_string="<no jinja comments>"
+        )
         template.globals["icon_file_to_base64_string"] = icon_file_to_base64_string
         output_file.write_text(
             template.render(yaml.load(yaml_file.read_text(), yaml.Loader))
@@ -45,13 +55,24 @@ def render_templates() -> None:
         TemplateFile(file).render_using(resume_yaml, output_file)
 
 
-def generate_pdf() -> None:
+def generate_pdf_from_markdown() -> None:
     pdfkit.from_file(
         input=str(output_dir / "resume.html"),
         output_path=output_dir / "sean-gatewood-resume.pdf",
         css=css_file,
         options={"page-size": "Letter", "enable-local-file-access": ""},
     )
+
+
+def generate_pdf_from_latex() -> None:
+    tex_file = output_dir / "resume.tex"
+    command = f"pdflatex -output-directory={output_dir} {tex_file}"
+    log.debug(subprocess.check_output(shlex.split(command)).decode())
+
+    # pdflatex will always name it <tex_name>.pdf
+    generated_pdf = output_dir / tex_file.with_suffix(".pdf")
+    desired_output_file = output_dir / "resume-from-latex.pdf"
+    generated_pdf.rename(desired_output_file)
 
 
 def icon_file_to_base64_string(icon_file_name: str) -> str:
@@ -62,4 +83,5 @@ def icon_file_to_base64_string(icon_file_name: str) -> str:
 if __name__ == "__main__":
     setup_directories()
     render_templates()
-    generate_pdf()
+    generate_pdf_from_markdown()
+    generate_pdf_from_latex()

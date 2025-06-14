@@ -40,7 +40,7 @@ check-for-changes:
   #!/usr/bin/env bash
   set -euox pipefail
 
-  if git status --porcelain | grep -v 'rendered/sean-gatewood-resume.pdf'; then
+  if git status --porcelain | grep -v '.pdf$'; then
     echo "^^ changes found"
     echo "please run 'just render' to update rendered files"
     exit 1

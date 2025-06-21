@@ -1,6 +1,6 @@
 # Sean Gatewood
 
-stg2bd@virginia.edu |
+hello@sgatewood.dev |
 [LinkedIn](https://linkedin.com/in/sean-t-gatewood) |
 [GitHub](https://github.com/sgatewood)
 

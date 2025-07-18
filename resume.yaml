@@ -84,8 +84,9 @@ skills:
     - Groovy / Kotlin
   main other technologies:
     - Kubernetes
-    - Terraform
-    - Helm
+    - Terraform / Pulumi
+    - Helm / Helmfile
+    - FluxCD
     - GitLab pipelines
     - Nix
     - MermaidJS

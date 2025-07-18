@@ -70,21 +70,24 @@ hello@sgatewood.dev |
 ## 💻 Projects
 
 #### **[This Resume](https://github.com/sgatewood/resume)**
-February 2022
+February 2022 - present
 - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
 - This was just more fun than LaTeX
 
-#### **Capstone Research**
-Fall 2019 - Spring 2020
-- Developed an "automated advising assistant" (Django/React app) to help UVA students create a long-term course plan based on a weighted scheduling algorithm. Worked on the Full-Stack/Application Team, and personally played a key role in integrating the code between teams.
+#### **[JobDeployment controller](https://github.com/sgatewood/job-deployment)**
+Summer 2025
+- Mostly just wanted to get my hands on<a href="https://book.kubebuilder.io/">kubebuilder</a>
+- This could in theory solve a DX problem I had with deploying kubernetes jobs from helm
 
-#### **[TA sorter](https://github.com/sgatewood/TA_Sorter)**
-Spring 2019
-- Created a quick program to help us sort out TA office hours and lab preferences using Max Flow.
+#### **[gcloud-fzf](https://github.com/sgatewood/gcloud-fzf)**
+Spring 2025
+- Made a go CLI that I wanted for a hyper-specific use case
+- The interesting piece is I can install it through my own homebrew tap!
 
-#### **Yelp for Off-Grounds Housing**
-Spring 2019
-- Worked on a SCRUM team to create a Django app to help students browse housing in Charlottesville.
+#### **[Portfolio site](https://sgatewood.github.io)**
+Spring 2022
+- Sorta abused an old Jekyll theme I liked to serve as a portfolio site
+- Includes some interesting hacks including dark mode and some MermaidJS magic
 
 #### **[Office Hours Chrome Extension](https://chrome.google.com/webstore/detail/oh-alerts/lfbigjgebeoclpdgcbdnjemefefbngab)**
 Fall 2018

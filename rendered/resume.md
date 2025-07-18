@@ -62,7 +62,7 @@ hello@sgatewood.dev |
 (non-comprehensive, in order of proficiency)
 
 - **Languages:** Python, Bash, Go, Java, JavaScript, C++, Groovy / Kotlin
-- **Other technologies:** Kubernetes, Terraform, Helm, GitLab pipelines, Feature Toggles / LaunchDarkly, Unit testing / mocking, Vim, Git, SQL, Docker, Terraform / AWS, Functional programming
+- **Other technologies:** Kubernetes, Terraform, Helm, GitLab pipelines, Nix, MermaidJS, Feature Toggles / LaunchDarkly, Unit testing / mocking, Vim, Git, SQL, Docker, Terraform / AWS, Functional programming
 - **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 
 ---

@@ -87,6 +87,8 @@ skills:
     - Terraform
     - Helm
     - GitLab pipelines
+    - Nix
+    - MermaidJS
     - Feature Toggles / LaunchDarkly
     - Unit testing / mocking
     - Vim

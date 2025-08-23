@@ -28,7 +28,7 @@ experience:
     location: New York, New York / remote
     dates: April 2023 - present
     notes:
-      - Develop and maintain infrastructure and automation around critical kubernetes services.
+      - Develop and maintain infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize manual operational toil.
       - Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated effective designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network.
       - Expanded production monitoring capabilities by authoring a custom metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.
       - Authored a custom k8s operator in Go to streamline our backup/restore process, eliminating manual operational tasks on a product that was entering maintenance mode.

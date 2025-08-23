@@ -80,16 +80,18 @@ skills:
     - Kotlin
   main other technologies:
     - Kubernetes
-    - Terraform / Pulumi
+    - GCP
     - Helm / Helmfile
-    - FluxCD
+    - Terraform / Pulumi
     - CI/CD pipelines
-    - Nix
+    - FluxCD
     - MermaidJS
+    - Nix
     - Feature Flags / LaunchDarkly
     - Git
-    - SQL
     - Docker
+    - SQL
+    - AWS
   also worked with:
     - HTML / CSS
     - React

@@ -77,22 +77,19 @@ skills:
     - Java
     - JavaScript
     - C++
-    - Groovy / Kotlin
+    - Kotlin
   main other technologies:
     - Kubernetes
     - Terraform / Pulumi
     - Helm / Helmfile
     - FluxCD
-    - GitLab pipelines
+    - CI/CD pipelines
     - Nix
     - MermaidJS
-    - Feature Toggles / LaunchDarkly
-    - Unit testing / mocking
-    - Vim
+    - Feature Flags / LaunchDarkly
     - Git
     - SQL
     - Docker
-    - Terraform / AWS
   also worked with:
     - HTML / CSS
     - React

@@ -30,8 +30,8 @@ experience:
     notes:
       - Develop and maintain infrastructure and automation around critical kubernetes services.
       - Automated the entire (from-scratch) deployment of a mission-critical service its own cluster with all the cloud infrastructure it needed. Utilized Google Cloud Platform (GCP / GKE), terraform, jsonnet, bash, and helm. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated successful designs with partner companies, helping them overcome similar hurdles and accelerating the successful launch of our blockchain network.
-      - Filled a critical hole in our production monitoring by authoring a custom metrics exporter in go
-      - Authored a custom k8s operator in Go to satisfy a particular business need.
+      - Filled a critical hole in our production monitoring by authoring a custom metrics exporter in go.
+      - Authored a custom k8s operator in Go to streamline our backup/restore process, eliminating manual operational tasks on a product that was entering maintenance mode.
       - Regularly engineered automation to seamlessly navigate complex migrations in production with minimal downtime.
       - Developed CI/CD pipelines using Google Cloud Build and CircleCI.
   - title: Software Engineer II

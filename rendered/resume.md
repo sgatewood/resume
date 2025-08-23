@@ -58,7 +58,7 @@ hello@sgatewood.dev |
 
 - **Languages:** Python, Bash, Go, Java, JavaScript, C++, Kotlin
 - **Other technologies:** Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines, FluxCD, Istio, MermaidJS, Nix, Feature Flags / LaunchDarkly, Git, Docker, SQL, AWS, Auth0
-- **Cloud Infra ("I've terraformed it!"):** VPC, Subnet, Application Load Balancer (L7), IAM, RBAC, Cloud DNS, Cloud NAT, Secrets Manager, Cloud Armor, GKE Cluster / Node Pools, MCI, Google-Managed Certificates, Datadog Monitors, VMs, Persistent Disks & Snapshot Schedules, Service Accounts, Workload Identity
+- **Cloud Infra ("I've terraformed it!"):** Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs), Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates), Security (IAM, RBAC, Secrets Manager, Cloud Armor, Service Accounts, Workload Identity)
 - **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 
 ---

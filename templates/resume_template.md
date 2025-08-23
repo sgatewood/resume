@@ -23,10 +23,11 @@
 ---
 
 ## 💪 Skills
-(non-comprehensive, in order of proficiency)
+(non-comprehensive)
 
 - **Languages:** {{ skills['main languages'] | join(', ') }}
 - **Other technologies:** {{ skills['main other technologies'] | join(', ') }}
+- **Cloud Infra ("I've terraformed it!"):** {{ skills['cloud infra'] | join(', ') }}
 - **Also worked with:** {{ skills['also worked with'] | join(', ') }}
 
 ---

@@ -61,7 +61,6 @@ experience:
       - Assisted hundreds of students with introductory programming concepts in Python.
       - Created <a href="https://www.youtube.com/playlist?list=PLeih3T8PoRaYXpRwCVUmCEQqzZ51qyAmD">review videos</a> that have received over 13,000 views.
       - Helped manage the course as one of four "Head TAs."
-      - Saved TA time / effort by automating the grading of a remote google docs exam question using Python.
   - title: Software Engineering Intern
     company: NASA Langley Research Center
     location: Hampton, VA
@@ -78,6 +77,24 @@ skills:
     - JavaScript
     - C++
     - Kotlin
+  cloud infra:
+    - VPC
+    - Subnet
+    - Application Load Balancer (L7)
+    - IAM
+    - RBAC
+    - Cloud DNS
+    - Cloud NAT
+    - Secrets Manager
+    - Cloud Armor
+    - GKE Cluster / Node Pools
+    - MCI
+    - Google-Managed Certificates
+    - Datadog Monitors
+    - VMs
+    - Persistent Disks & Snapshot Schedules
+    - Service Accounts
+    - Workload Identity
   main other technologies:
     - Kubernetes
     - GCP
@@ -85,6 +102,7 @@ skills:
     - Terraform / Pulumi
     - CI/CD pipelines
     - FluxCD
+    - Istio
     - MermaidJS
     - Nix
     - Feature Flags / LaunchDarkly
@@ -92,6 +110,7 @@ skills:
     - Docker
     - SQL
     - AWS
+    - Auth0
   also worked with:
     - HTML / CSS
     - React
@@ -134,8 +153,3 @@ projects:
     notes:
       - Sorta abused an old Jekyll theme I liked to serve as a portfolio site
       - Includes some interesting hacks including dark mode and some MermaidJS magic
-  - name: Office Hours Chrome Extension
-    dates: Fall 2018
-    link: https://chrome.google.com/webstore/detail/oh-alerts/lfbigjgebeoclpdgcbdnjemefefbngab
-    notes:
-      - Created a Chrome extension to notify TAs when a student needs help in Office Hours.

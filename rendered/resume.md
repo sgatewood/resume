@@ -27,7 +27,7 @@ hello@sgatewood.dev |
 (McLean, VA / remote) August 2020 - April 2023
 - Worked on a Development Experience team that created and maintained a variety of developer tooling and infrastructure, gaining a unique perspective on usability that continues to shape my tooling designs today.
 - Contributed to a remote development solution, including a custom Kubernetes service to lease EC2s and a python tool to build/develop/test the product remotely (rather than on your own machine).
-- Architected and developed a pipeline to create warm builds that developers can take and use instantly rather than waiting to build from source.
+- Architected and developed a Gitlab pipeline to precook warm builds that developers could take and use instantly rather than waiting to build from source, providing an extremely fast setup to "test something on a recent main build."
 - Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).
 - Regularly initiated & led architectural design discussions.
 - Regularly assisted developers in troubleshooting technical issues, both to help unblock them and to find ways to improve our local build stability.
@@ -57,7 +57,7 @@ hello@sgatewood.dev |
 (non-comprehensive)
 
 - **Languages:** Python, Bash, Go, Java, JavaScript, C++, Kotlin
-- **Other technologies:** Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines, FluxCD, Istio, MermaidJS, Nix, Feature Flags / LaunchDarkly, Git, Docker, SQL, AWS, Auth0
+- **Other technologies:** Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, Docker, Feature Flags / LaunchDarkly, Docker, SQL, AWS, Auth0
 - **Cloud Infra ("I've terraformed it!"):** Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs), Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates), Security (IAM, RBAC, Secrets Manager, Cloud Armor, Service Accounts, Workload Identity)
 - **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 

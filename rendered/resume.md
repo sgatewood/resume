@@ -68,7 +68,7 @@ hello@sgatewood.dev |
 #### **[This Resume](https://github.com/sgatewood/resume)**
 February 2022 - present
 - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
-- This was just more fun than LaTeX
+- This was just more fun than LaTeX (and it's super nice to tweak my resume with vim and git)
 
 #### **[JobDeployment controller](https://github.com/sgatewood/job-deployment)**
 Summer 2025

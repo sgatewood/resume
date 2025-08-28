@@ -18,10 +18,12 @@ hello@sgatewood.dev |
 #### **DevOps Engineer**, Digital Asset
 (New York, NY / remote) April 2023 - present
 - Develop and maintain infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize manual operational toil.
-- Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated effective designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network.
-- Expanded production monitoring capabilities by authoring a custom metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.
+- Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network. Uptime requirements were extremely high -- any downtime required auditing financial losses.
+- Expanded production monitoring capabilities by authoring a custom Prometheus metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.
 - Authored a custom k8s operator in Go to streamline our backup/restore process, eliminating manual operational tasks on a product that was entering maintenance mode.
 - Developed CI/CD pipelines using Google Cloud Build and CircleCI.
+- Participated in on-call rotations, triaging a multitude of production alerts and maintaining the reliability of our services.
+- Built isolated blockchain test environments in both k3d (for local dev) and vClusters, enabling developers to effortlessly spin up fully independent networks.
 
 #### **Software Engineer II**, Appian Corporation
 (McLean, VA / remote) August 2020 - April 2023
@@ -30,13 +32,13 @@ hello@sgatewood.dev |
 - Architected and developed a Gitlab pipeline to precook warm builds that developers could take and use instantly rather than waiting to build from source, providing an extremely fast setup to "test something on a recent main build."
 - Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).
 - Regularly initiated & led architectural design discussions.
-- Regularly assisted developers in troubleshooting technical issues, both to help unblock them and to find ways to improve our local build stability.
-- Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality and component health.
+- Regularly unblocked developers by assisting in troubleshooting technical issues, improving our local build stability.
+- Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality.
 - Mentored two interns as a Summer Intern Manager, meeting with them weekly to optimize their internship experience.
 
 #### **Software Engineering Intern**, Uber Advanced Technologies Group
 (Pittsburgh, PA) May 2019 - August 2019
-- Developed and benchmarked alternate implementations for a key-value store using various database technologies (e.g. LevelDB, Sqlite3).
+- Developed and benchmarked alternate implementations for a key-value store using various database technologies.
 - Presented results to Uber ATG software engineers.
 
 #### **Teaching Assistant - Introduction to Programming**, University of Virginia
@@ -48,7 +50,7 @@ hello@sgatewood.dev |
 #### **Software Engineering Intern**, NASA Langley Research Center
 (Hampton, VA) May 2018 - May 2019
 - Created data management tools for "airborne atmospheric composition data"
-- Engineered a <a href="https://www-air.larc.nasa.gov/cgi-bin/Driver.cgi?platform=KORUSAQ/DC8_AIRCRAFT">full-stack web application</a> (JQuery, AJAX, cgi, C++) for atmospheric researchers to create customized data merges.
+- Engineered a <a href="https://www-air.larc.nasa.gov/cgi-bin/Driver.cgi?platform=KORUSAQ/DC8_AIRCRAFT">full-stack web application</a> (JQuery, AJAX, cgi, C++) for researchers to create customized data merges.
 
 
 ---
@@ -57,7 +59,7 @@ hello@sgatewood.dev |
 (non-comprehensive)
 
 - **Languages:** Python, Bash, Go, Java, JavaScript, C++, Kotlin
-- **Other technologies:** Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, Docker, Feature Flags / LaunchDarkly, Docker, SQL, AWS, Auth0
+- **Other technologies:** Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, Feature Flags / LaunchDarkly, Docker, SQL, AWS, Auth0, Grafana, Prometheus, Datadog
 - **Cloud Infra ("I've terraformed it!"):** Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs), Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates), Security (IAM, RBAC, Secrets Manager, Cloud Armor, Service Accounts, Workload Identity)
 - **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 

@@ -48,6 +48,10 @@ check-for-changes:
     echo "No changes :-)"
   fi
 
+# helps you copy into sites that make you also paste this all in
+vim-copyable-version:
+  cat resume.yaml | yq -o json | jq -r '.experience[] | "Job Title:\n\(.title)\n\nCompany / Organization: \n\(.company)\n\nLocation: \n\(.location)\n\nFrom:\n\(.dates | split(" - ")[0])\n\nTo:\n\(.dates | split(" - ")[1] // "Present")\n\nDescription:\n\n" + (.notes | join("\n\n")) + "\n\n---\n"' | nvim -R -c "AutoSaveOff" -
+
 alias r := render
 alias o := open-pdf
 alias fmt := format

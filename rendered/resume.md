@@ -22,8 +22,8 @@ hello@sgatewood.dev |
 - Expanded production monitoring capabilities by authoring a custom Prometheus metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.
 - Authored a custom k8s operator in Go to streamline our backup/restore process, eliminating manual operational tasks on a product that was entering maintenance mode.
 - Developed CI/CD pipelines using Google Cloud Build and CircleCI.
-- Built isolated blockchain test environments in both k3d (for local dev) and vClusters, enabling developers to effortlessly spin up fully independent networks.
 - Participated in on-call rotations, triaging a multitude of production alerts and maintaining the reliability of our services.
+- Built isolated blockchain test environments in both k3d (for local dev) and vClusters, enabling developers to effortlessly spin up fully independent networks.
 
 #### **Software Engineer II**, Appian Corporation
 (McLean, VA / remote) August 2020 - April 2023

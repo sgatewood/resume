@@ -29,10 +29,12 @@ experience:
     dates: April 2023 - present
     notes:
       - Develop and maintain infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize manual operational toil.
-      - Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated effective designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network.
-      - Expanded production monitoring capabilities by authoring a custom metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.
+      - Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network. Uptime requirements were extremely high -- any downtime required auditing financial losses.
+      - Expanded production monitoring capabilities by authoring a custom Prometheus metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.
       - Authored a custom k8s operator in Go to streamline our backup/restore process, eliminating manual operational tasks on a product that was entering maintenance mode.
       - Developed CI/CD pipelines using Google Cloud Build and CircleCI.
+      - Built isolated blockchain test environments in both k3d (for local dev) and vClusters, enabling developers to effortlessly spin up fully independent networks.
+      - Participated in on-call rotations, triaging a multitude of production alerts and maintaining the reliability of our services.
   - title: Software Engineer II
     company: Appian Corporation
     location: McLean, VA / remote
@@ -43,15 +45,15 @@ experience:
       - Architected and developed a Gitlab pipeline to precook warm builds that developers could take and use instantly rather than waiting to build from source, providing an extremely fast setup to "test something on a recent main build."
       - Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).
       - Regularly initiated & led architectural design discussions.
-      - Regularly assisted developers in troubleshooting technical issues, both to help unblock them and to find ways to improve our local build stability.
-      - Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality and component health.
+      - Regularly unblocked developers by assisting in troubleshooting technical issues, improving our local build stability.
+      - Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality.
       - Mentored two interns as a Summer Intern Manager, meeting with them weekly to optimize their internship experience.
   - title: Software Engineering Intern
     company: Uber Advanced Technologies Group
     location: Pittsburgh, PA
     dates: May 2019 - August 2019
     notes:
-      - Developed and benchmarked alternate implementations for a key-value store using various database technologies (e.g. LevelDB, Sqlite3).
+      - Developed and benchmarked alternate implementations for a key-value store using various database technologies.
       - Presented results to Uber ATG software engineers.
   - title: Teaching Assistant - Introduction to Programming
     company: University of Virginia
@@ -67,7 +69,7 @@ experience:
     dates: May 2018 - May 2019
     notes:
       - Created data management tools for "airborne atmospheric composition data"
-      - Engineered a <a href="https://www-air.larc.nasa.gov/cgi-bin/Driver.cgi?platform=KORUSAQ/DC8_AIRCRAFT">full-stack web application</a> (JQuery, AJAX, cgi, C++) for atmospheric researchers to create customized data merges.
+      - Engineered a <a href="https://www-air.larc.nasa.gov/cgi-bin/Driver.cgi?platform=KORUSAQ/DC8_AIRCRAFT">full-stack web application</a> (JQuery, AJAX, cgi, C++) for researchers to create customized data merges.
 skills:
   main languages:
     - Python
@@ -91,12 +93,14 @@ skills:
     - Istio
     - MermaidJS
     - Nix
-    - Docker
     - Feature Flags / LaunchDarkly
     - Docker
     - SQL
     - AWS
     - Auth0
+    - Grafana
+    - Prometheus
+    - Datadog
   also worked with:
     - HTML / CSS
     - React

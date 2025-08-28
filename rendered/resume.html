@@ -35,10 +35,12 @@
     <h3 class="job-line"><u>DevOps Engineer, <span class="job-details">Digital Asset (New York, NY / remote)</span></u> <span class="date">April 2023 - present</span></h3>
     <ul>
       <li>Develop and maintain infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize manual operational toil.</li>
-			<li>Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated effective designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network.</li>
-			<li>Expanded production monitoring capabilities by authoring a custom metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.</li>
+			<li>Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network. Uptime requirements were extremely high -- any downtime required auditing financial losses.</li>
+			<li>Expanded production monitoring capabilities by authoring a custom Prometheus metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.</li>
 			<li>Authored a custom k8s operator in Go to streamline our backup/restore process, eliminating manual operational tasks on a product that was entering maintenance mode.</li>
 			<li>Developed CI/CD pipelines using Google Cloud Build and CircleCI.</li>
+			<li>Built isolated blockchain test environments in both k3d (for local dev) and vClusters, enabling developers to effortlessly spin up fully independent networks.</li>
+			<li>Participated in on-call rotations, triaging a multitude of production alerts and maintaining the reliability of our services.</li>
     </ul>
     
     <h3 class="job-line"><u>Software Engineer II, <span class="job-details">Appian Corporation (McLean, VA / remote)</span></u> <span class="date">August 2020 - April 2023</span></h3>
@@ -48,14 +50,14 @@
 			<li>Architected and developed a Gitlab pipeline to precook warm builds that developers could take and use instantly rather than waiting to build from source, providing an extremely fast setup to "test something on a recent main build."</li>
 			<li>Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).</li>
 			<li>Regularly initiated & led architectural design discussions.</li>
-			<li>Regularly assisted developers in troubleshooting technical issues, both to help unblock them and to find ways to improve our local build stability.</li>
-			<li>Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality and component health.</li>
+			<li>Regularly unblocked developers by assisting in troubleshooting technical issues, improving our local build stability.</li>
+			<li>Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality.</li>
 			<li>Mentored two interns as a Summer Intern Manager, meeting with them weekly to optimize their internship experience.</li>
     </ul>
     
     <h3 class="job-line"><u>Software Engineering Intern, <span class="job-details">Uber Advanced Technologies Group (Pittsburgh, PA)</span></u> <span class="date">May 2019 - August 2019</span></h3>
     <ul>
-      <li>Developed and benchmarked alternate implementations for a key-value store using various database technologies (e.g. LevelDB, Sqlite3).</li>
+      <li>Developed and benchmarked alternate implementations for a key-value store using various database technologies.</li>
 			<li>Presented results to Uber ATG software engineers.</li>
     </ul>
     
@@ -69,7 +71,7 @@
     <h3 class="job-line"><u>Software Engineering Intern, <span class="job-details">NASA Langley Research Center (Hampton, VA)</span></u> <span class="date">May 2018 - May 2019</span></h3>
     <ul>
       <li>Created data management tools for "airborne atmospheric composition data"</li>
-			<li>Engineered a <a href="https://www-air.larc.nasa.gov/cgi-bin/Driver.cgi?platform=KORUSAQ/DC8_AIRCRAFT">full-stack web application</a> (JQuery, AJAX, cgi, C++) for atmospheric researchers to create customized data merges.</li>
+			<li>Engineered a <a href="https://www-air.larc.nasa.gov/cgi-bin/Driver.cgi?platform=KORUSAQ/DC8_AIRCRAFT">full-stack web application</a> (JQuery, AJAX, cgi, C++) for researchers to create customized data merges.</li>
     </ul>
     
 
@@ -78,7 +80,7 @@
     <ul>
       <li><strong>Languages: </strong>Python, Bash, Go, Java, JavaScript, C++, Kotlin</li>
       <li><strong>Cloud infra ("I've terraformed it!"): </strong>Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs), Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates), Security (IAM, RBAC, Secrets Manager, Cloud Armor, Service Accounts, Workload Identity)</li>
-      <li><strong>Other technologies: </strong>Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, Docker, Feature Flags / LaunchDarkly, Docker, SQL, AWS, Auth0</li>
+      <li><strong>Other technologies: </strong>Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, Feature Flags / LaunchDarkly, Docker, SQL, AWS, Auth0, Grafana, Prometheus, Datadog</li>
     </ul>
 
     <h2 class="section-header">&gt;&gt; Projects</h2><hr>

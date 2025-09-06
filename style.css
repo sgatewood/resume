@@ -49,6 +49,10 @@ ul {
   padding-left: 28px;
 }
 
+#skills-list {
+  width: 90%;
+}
+
 #skills-qualifier{
   font-weight: lighter;
   font-size: 80%;

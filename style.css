@@ -61,3 +61,10 @@ img.icon-img {
   top: 3px;
   margin-right: 4px;
 }
+
+code {
+  margin-left: -5px;
+  font-size: 110%;
+  font-weight: bold;
+}
+

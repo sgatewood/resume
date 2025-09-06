@@ -94,7 +94,7 @@ skills:
     - Istio
     - MermaidJS
     - Nix
-    - Feature Flags / LaunchDarkly
+    - LaunchDarkly
     - Docker
     - SQL
     - Auth0

@@ -6,13 +6,6 @@ hello@sgatewood.dev |
 
 ---
 
-## 🎓 Education
-**University of Virginia** (May 2020) Rodman Scholar, Raven Society
-- B.S. Computer Science. GPA 3.95
-**Notable Courses:** Computer Graphics, Algorithms, Introduction to Cybersecurity, Software Testing
-
----
-
 ## 💼 Experience
 
 #### **DevOps Engineer**, Digital Asset
@@ -86,3 +79,11 @@ Spring 2025
 Spring 2022
 - Sorta abused an old Jekyll theme I liked to serve as a portfolio site
 - Includes some interesting hacks including dark mode and some MermaidJS magic
+
+
+---
+
+## 🎓 Education
+**University of Virginia** (May 2020) Rodman Scholar, Raven Society
+- B.S. Computer Science. GPA 3.95
+**Notable Courses:** Computer Graphics, Algorithms, Introduction to Cybersecurity, Software Testing

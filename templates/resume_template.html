@@ -7,7 +7,6 @@
   </head>
   <body>
 
-
     <div class="title">
       <h1>{{ name }}</h1>
       <p>
@@ -17,20 +16,7 @@
       </p>
     </div>
 
-
-    <h2 class="section-header" id="education">&gt;&gt; Education</h2><hr>
-    <p>
-      <strong>{{ education.school }}</strong> ({{education.graduation}}) {{ education['school titles'] | join(', ') }}
-    </p>
-    <ul>
-      <li>{{ education.degree }}. GPA {{ education.gpa }}</li>
-    </ul>
-    <p>
-      <strong>Notable Courses:</strong> {{ education['notable courses'] | join(', ') }}
-    </p>
-
-
-    <h2 class="section-header">&gt;&gt; Experience</h2><hr>
+    <h2 class="section-header" id="experience">&gt;&gt; Experience</h2><hr>
     {% for job in experience %}
     <h3 class="job-line"><u>{{ job.title }}, <span class="job-details">{{ job.company }} ({{ job.location }})</span></u> <span class="date">{{ job.dates }}</span></h3>
     <ul>
@@ -62,5 +48,17 @@
       <li>{{ project.notes | join('</li>\n\t\t\t<li>') }}</li>
     </ul>
     {% endfor %}
+
+    <h2 class="section-header" id="education">&gt;&gt; Education</h2><hr>
+    <p>
+      <strong>{{ education.school }}</strong> ({{education.graduation}}) {{ education['school titles'] | join(', ') }}
+    </p>
+    <ul>
+      <li>{{ education.degree }}. GPA {{ education.gpa }}</li>
+    </ul>
+    <p>
+      <strong>Notable Courses:</strong> {{ education['notable courses'] | join(', ') }}
+    </p>
+
   </body>
 </html>

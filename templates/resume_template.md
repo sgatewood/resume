@@ -6,13 +6,6 @@
 
 ---
 
-## 🎓 Education
-**{{ education.school }}** ({{education.graduation}}) {{ education['school titles'] | join(', ') }}
-- {{ education.degree }}. GPA {{ education.gpa }}
-**Notable Courses:** {{ education['notable courses'] | join(', ') }}
-
----
-
 ## 💼 Experience
 {% for job in experience %}
 #### **{{ job.title }}**, {{ job.company }}
@@ -38,3 +31,11 @@
 {{ project.dates }}
 - {{ project.notes | join('\n- ') }}
 {% endfor %}
+
+---
+
+## 🎓 Education
+**{{ education.school }}** ({{education.graduation}}) {{ education['school titles'] | join(', ') }}
+- {{ education.degree }}. GPA {{ education.gpa }}
+**Notable Courses:** {{ education['notable courses'] | join(', ') }}
+

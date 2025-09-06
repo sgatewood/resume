@@ -134,6 +134,7 @@ projects:
   - name: gcloud-fzf
     dates: Spring 2025
     link: https://github.com/sgatewood/gcloud-fzf
+    hidden-from-pdf: true
     notes:
       - Made a go CLI that I wanted for a hyper-specific use case
       - The interesting piece is I can install it through my own homebrew tap!

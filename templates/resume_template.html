@@ -37,6 +37,7 @@
 
     <h2 class="section-header">&gt;&gt; Projects</h2><hr>
     {% for project in projects %}
+    {% if not project.get("hidden-from-pdf",False) %}
     <h3>
       {% if 'link' in project %}
       <a href="{{ project.link }}">{{ project.name }}</a>
@@ -50,6 +51,7 @@
     <ul>
       <li>{{ project.notes | join('</li>\n\t\t\t<li>') }}</li>
     </ul>
+    {% endif %}
     {% endfor %}
 
     <h2 class="section-header" id="education">&gt;&gt; Education</h2><hr>

@@ -44,8 +44,7 @@ experience:
       - Worked on a Development Experience team that created and maintained a variety of developer tooling and infrastructure, gaining a unique perspective on usability that continues to shape my tooling designs today.
       - Contributed to a remote development solution, including a custom Kubernetes service to lease EC2s and a python tool to build/develop/test the product remotely (rather than on your own machine).
       - Architected and developed a Gitlab pipeline to precook warm builds that developers could take and use instantly rather than waiting to build from source, providing an extremely fast setup to "test something on a recent main build."
-      - Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).
-      - Regularly initiated & led architectural design discussions.
+      - Regularly initiated & led architectural design discussions, and spiked a wide variety of prototypes.
       - Regularly unblocked developers by assisting in troubleshooting technical issues, improving our local build stability.
       - Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality.
       - Mentored two interns as a Summer Intern Manager, meeting with them weekly to optimize their internship experience.

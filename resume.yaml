@@ -86,6 +86,7 @@ skills:
   main other technologies:
     - Kubernetes
     - GCP
+    - AWS
     - Helm / Helmfile
     - Terraform / Pulumi
     - CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB)
@@ -96,7 +97,6 @@ skills:
     - Feature Flags / LaunchDarkly
     - Docker
     - SQL
-    - AWS
     - Auth0
     - Grafana
     - Prometheus

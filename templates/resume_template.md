@@ -6,6 +6,12 @@
 
 ---
 
+## 🔍 Summary
+
+{{ summary }}
+
+---
+
 ## 💼 Experience
 {% for job in experience %}
 #### **{{ job.title }}**, {{ job.company }}

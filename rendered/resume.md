@@ -6,6 +6,12 @@ hello@sgatewood.dev |
 
 ---
 
+## 🔍 Summary
+
+Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> side of DevOps. I build scalable, reproducible, and reliable production environments with Kubernetes ecosystems, Infrastructure as Code, and CI/CD pipelines. I bring strong development skills to the infra world, elevating production environments with seamless automation, custom microservices, and even proactive application-level fixes.
+
+---
+
 ## 💼 Experience
 
 #### **DevOps Engineer**, Digital Asset
@@ -23,8 +29,7 @@ hello@sgatewood.dev |
 - Worked on a Development Experience team that created and maintained a variety of developer tooling and infrastructure, gaining a unique perspective on usability that continues to shape my tooling designs today.
 - Contributed to a remote development solution, including a custom Kubernetes service to lease EC2s and a python tool to build/develop/test the product remotely (rather than on your own machine).
 - Architected and developed a Gitlab pipeline to precook warm builds that developers could take and use instantly rather than waiting to build from source, providing an extremely fast setup to "test something on a recent main build."
-- Initiated & developed numerous prototypes, many of which shipped (or became real quarter-long features for my team).
-- Regularly initiated & led architectural design discussions.
+- Regularly initiated & led architectural design discussions, and spiked a wide variety of prototypes.
 - Regularly unblocked developers by assisting in troubleshooting technical issues, improving our local build stability.
 - Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality.
 - Mentored two interns as a Summer Intern Manager, meeting with them weekly to optimize their internship experience.
@@ -52,7 +57,7 @@ hello@sgatewood.dev |
 (non-comprehensive)
 
 - **Languages:** Python, Bash, Go, Java, JavaScript, C++, Kotlin
-- **Other technologies:** Kubernetes, GCP, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, Feature Flags / LaunchDarkly, Docker, SQL, AWS, Auth0, Grafana, Prometheus, Datadog
+- **Other technologies:** Kubernetes, GCP, AWS, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, LaunchDarkly, Docker, SQL, Auth0, Grafana, Prometheus, Datadog
 - **Cloud Infra ("I've terraformed it!"):** Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs), Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates), Security (IAM, RBAC, Secrets Manager, Cloud Armor, Service Accounts, Workload Identity)
 - **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 

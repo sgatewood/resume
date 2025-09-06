@@ -21,7 +21,7 @@ h2.section-header{
   font-size: 190%;
 }
 
-#experience {
+#summary {
   margin-top: -10px;
 }
 
@@ -49,6 +49,10 @@ ul {
   padding-left: 28px;
 }
 
+#skills-list {
+  width: 90%;
+}
+
 #skills-qualifier{
   font-weight: lighter;
   font-size: 80%;
@@ -61,3 +65,10 @@ img.icon-img {
   top: 3px;
   margin-right: 4px;
 }
+
+code {
+  margin-left: -5px;
+  font-size: 110%;
+  font-weight: bold;
+}
+

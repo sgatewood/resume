@@ -25,6 +25,11 @@
 (non-comprehensive)
 
 - **Languages:** {{ skills['main languages'] | join(', ') }}
+- **Cloud Platforms:** {{ skills['cloud platforms'] | join(', ') }}
+- **Kubernetes:** {{ skills['kubernetes'] | join(', ') }}
+- **Monitoring:** {{ skills['monitoring'] | join(', ') }}
+- **IaC:** {{ skills['iac'] | join(', ') }}
+- **CI/CD:** {{ skills['ci/cd'] | join(', ') }}
 - **Other technologies:** {{ skills['main other technologies'] | join(', ') }}
 - **Cloud Infra ("I've terraformed it!"):** {{ skills['cloud infra'] | join(', ') }}
 - **Also worked with:** {{ skills['also worked with'] | join(', ') }}

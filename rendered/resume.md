@@ -56,10 +56,15 @@ Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> s
 ## 💪 Skills
 (non-comprehensive)
 
-- **Languages:** Python, Bash, Go, Java, JavaScript, C++, Kotlin
-- **Other technologies:** Kubernetes, GCP, AWS, Helm / Helmfile, Terraform / Pulumi, CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB), FluxCD, Istio, MermaidJS, Nix, LaunchDarkly, Docker, SQL, Auth0, Grafana, Prometheus, Datadog
+- **Languages:** Python, Bash, Go, Java, TypeScript, C++
+- **Cloud Platforms:** GCP, AWS
+- **Kubernetes:** Helm, Helmfile, FluxCD, Istio, Custom Operators
+- **Monitoring:** Grafana, Prometheus, Datadog
+- **IaC:** Terraform, Pulumi
+- **CI/CD:** GitLab, Github Actions, CircleCI, GCB, Jenkins
+- **Other technologies:** Docker, Docker Compose, SQL, LaunchDarkly, MermaidJS, Nix, Jsonnet, Auth0, Kotlin, Gradle, Linux, jq, Justfile, Git, GitHub
 - **Cloud Infra ("I've terraformed it!"):** Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs), Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates), Security (IAM, RBAC, Secrets Manager, Cloud Armor, Service Accounts, Workload Identity)
-- **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Prometheus, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
+- **Also worked with:** HTML / CSS, React, Gradle, Django, JQuery, Argo CD, Google chat bots, Chrome Extensions, Intellij Plugins, Autodesk Inventor, LabVIEW
 
 ---
 

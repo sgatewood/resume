@@ -29,11 +29,65 @@
 
 
     <h2 class="section-header">Selected Skills</h2>
-    <ul id="skills-list">
-      <li><strong>Languages: </strong>{{ skills['main languages'] | join(', ') }}</li>
-      <li><strong>Cloud infra ("I've terraformed it!"): </strong>{{ skills['cloud infra'] | join(', ') }}</li>
-      <li><strong>Other technologies: </strong>{{ skills['main other technologies'] | join(', ') }}</li>
-    </ul>
+
+		<table id="skills-table">
+			<tr>
+				<td>
+					<div class="skill-box">
+						<h3>Languages</h3>
+						<p>{{ skills['main languages'] | join(', ') }}</p>
+					</div>
+				</td>
+				<td>
+					<div class="skill-box">
+						<h3>Kubernetes</h3>
+						<p>{{ skills['kubernetes'] | join(', ') }}</p>
+					</div>
+				</td>
+				<td>
+					<div class="skill-box">
+						<h3>Monitoring</h3>
+						<p>{{ skills['monitoring'] | join(', ') }}</p>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="skill-box">
+						<h3>Cloud Platforms</h3>
+						<p>{{ skills['cloud platforms'] | join(', ') }}</p>
+					</div>
+				</td>
+				<td>
+					<div class="skill-box">
+						<h3>Infrastructure As Code</h3>
+						<p>{{ skills['iac'] | join(', ') }}</p>
+					</div>
+				</td>
+				<td>
+					<div class="skill-box">
+						<h3>CI / CD</h3>
+						<p>{{ skills['ci/cd'] | join(', ') }}</p>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan=2>
+					<div class="skill-box">
+						<h3>Cloud Resources ("I've terraformed it!")</h3>
+						<p>{{ skills['cloud infra'] | join(', ') }}</p>
+					</div>
+				</td>
+				<td>
+					<div class="skill-box">
+						<h3>Other</h3>
+						<p>{{ skills['main other technologies'] | join(', ') }}</p>
+					</div>
+				</td>
+			</tr>
+		</table>
 
     <h2 class="section-header">Side Projects</h2>
     {% for project in projects %}

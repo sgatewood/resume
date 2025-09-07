@@ -21,7 +21,7 @@
 
     <h2 class="section-header" id="experience">&gt;&gt; Experience</h2><hr>
     {% for job in experience %}
-    <h3 class="job-line"><u>{{ job.title }}, <span class="job-details">{{ job.company }} ({{ job.location }})</span></u> <span class="date">{{ job.dates }}</span></h3>
+    <h3 class="job-line">{{ job.title }}, <span class="job-details">{{ job.company }} ({{ job.location }})</span> <span class="date">{{ job.dates }}</span></h3>
     <ul>
       <li>{{ job.notes | join('</li>\n\t\t\t<li>') }}</li>
     </ul>

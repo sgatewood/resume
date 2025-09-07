@@ -16,10 +16,10 @@
       </p>
     </div>
 
-    <h2 class="section-header" id="summary">&gt;&gt; Summary</h2><hr>
+    <h2 class="section-header" id="summary">Summary</h2>
     <p id="summary-p">{{ summary }}</p>
 
-    <h2 class="section-header" id="experience">&gt;&gt; Experience</h2><hr>
+    <h2 class="section-header" id="experience">Experience</h2>
     {% for job in experience %}
     <h3 class="job-line">{{ job.title }}, <span class="job-details">{{ job.company }} ({{ job.location }})</span> <span class="date">{{ job.dates }}</span></h3>
     <ul>
@@ -28,14 +28,14 @@
     {% endfor %}
 
 
-    <h2 class="section-header">&gt;&gt; Skills <span id="skills-qualifier">(non-comprehensive)</span></h2><hr>
+    <h2 class="section-header">Selected Skills</h2>
     <ul id="skills-list">
       <li><strong>Languages: </strong>{{ skills['main languages'] | join(', ') }}</li>
       <li><strong>Cloud infra ("I've terraformed it!"): </strong>{{ skills['cloud infra'] | join(', ') }}</li>
       <li><strong>Other technologies: </strong>{{ skills['main other technologies'] | join(', ') }}</li>
     </ul>
 
-    <h2 class="section-header">&gt;&gt; Projects</h2><hr>
+    <h2 class="section-header">Side Projects</h2>
     {% for project in projects %}
     {% if not project.get("hidden-from-pdf",False) %}
     <h3>
@@ -54,7 +54,7 @@
     {% endif %}
     {% endfor %}
 
-    <h2 class="section-header" id="education">&gt;&gt; Education</h2><hr>
+    <h2 class="section-header" id="education">Education</h2>
     <p>
       <strong>{{ education.school }}</strong> ({{education.graduation}}) {{ education['school titles'] | join(', ') }}
     </p>

@@ -76,38 +76,56 @@ skills:
     - Bash
     - Go
     - Java
-    - JavaScript
+    - TypeScript
     - C++
-    - Kotlin
+  cloud platforms:
+    - GCP
+    - AWS
   cloud infra:
     - Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs)
     - Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates)
     - Security (IAM, RBAC, Secrets Manager, Cloud Armor, Service Accounts, Workload Identity)
   main other technologies:
-    - Kubernetes
-    - GCP
-    - AWS
-    - Helm / Helmfile
-    - Terraform / Pulumi
-    - CI/CD pipelines (Gitlab, Github Actions, CircleCI, GCB)
-    - FluxCD
-    - Istio
+    - Docker
+    - Docker Compose
+    - SQL
+    - LaunchDarkly
     - MermaidJS
     - Nix
-    - LaunchDarkly
-    - Docker
-    - SQL
+    - Jsonnet
     - Auth0
+    - Kotlin
+    - Gradle
+    - Linux
+    - jq
+    - Justfile
+    - Git
+    - GitHub
+  kubernetes:
+    - Helm
+    - Helmfile
+    - FluxCD
+    - Istio
+    - Custom Operators
+  monitoring:
     - Grafana
     - Prometheus
     - Datadog
+  iac:
+    - Terraform
+    - Pulumi
+  ci/cd:
+    - GitLab
+    - Github Actions
+    - CircleCI
+    - GCB
+    - Jenkins
   also worked with:
     - HTML / CSS
     - React
     - Gradle
     - Django
     - JQuery
-    - Prometheus
     - Argo CD
     - Google chat bots
     - Chrome Extensions

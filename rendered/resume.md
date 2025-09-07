@@ -73,12 +73,10 @@ Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> s
 #### **[This Resume](https://github.com/sgatewood/resume)**
 February 2022 - present
 - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
-- This was just more fun than LaTeX (and it's super nice to tweak my resume with vim and git)
 
 #### **[JobDeployment controller](https://github.com/sgatewood/job-deployment)**
 Summer 2025
-- Mostly just wanted to get my hands on<a href="https://book.kubebuilder.io/">kubebuilder</a>
-- This could in theory solve a DX problem I had with deploying kubernetes jobs from helm
+- Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a>
 
 #### **[gcloud-fzf](https://github.com/sgatewood/gcloud-fzf)**
 Spring 2025

@@ -142,13 +142,11 @@ projects:
     link: "https://github.com/sgatewood/resume"
     notes:
       - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
-      - This was just more fun than LaTeX (and it's super nice to tweak my resume with vim and git)
   - name: JobDeployment controller
     dates: Summer 2025
     link: https://github.com/sgatewood/job-deployment
     notes:
-      - Mostly just wanted to get my hands on<a href="https://book.kubebuilder.io/">kubebuilder</a>
-      - This could in theory solve a DX problem I had with deploying kubernetes jobs from helm
+      - Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a>
   - name: gcloud-fzf
     dates: Spring 2025
     link: https://github.com/sgatewood/gcloud-fzf
@@ -159,6 +157,7 @@ projects:
   - name: Portfolio site
     dates: Spring 2022
     link: https://sgatewood.github.io
+    hidden-from-pdf: true
     notes:
       - Sorta abused an old Jekyll theme I liked to serve as a portfolio site
       - Includes some interesting hacks including dark mode and some MermaidJS magic

@@ -70,23 +70,25 @@ Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> s
 
 ## 💻 Projects
 
-#### **[This Resume](https://github.com/sgatewood/resume)**
-February 2022 - present
-- I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
+#### **[This Resume](https://github.com/sgatewood/resume)** (February 2022 - present)
 
-#### **[JobDeployment controller](https://github.com/sgatewood/job-deployment)**
-Summer 2025
-- Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a>
+Written in YAML and templated into the document you are reading. :-)
 
-#### **[gcloud-fzf](https://github.com/sgatewood/gcloud-fzf)**
-Spring 2025
-- Made a go CLI that I wanted for a hyper-specific use case
-- The interesting piece is I can install it through my own homebrew tap!
 
-#### **[Portfolio site](https://sgatewood.github.io)**
-Spring 2022
-- Sorta abused an old Jekyll theme I liked to serve as a portfolio site
-- Includes some interesting hacks including dark mode and some MermaidJS magic
+#### **[JobDeployment controller](https://github.com/sgatewood/job-deployment)** (Summer 2025)
+
+Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a> to solve a DX problem with deploying Job objects in helm charts.
+
+
+#### **[gcloud-fzf](https://github.com/sgatewood/gcloud-fzf)** (Spring 2025)
+
+Wrote a Go CLI I wanted. The interesting part is I actually distributed it via homebrew.
+
+
+#### **[Portfolio site](https://sgatewood.github.io)** (Spring 2022)
+
+Used an old Jekyll theme I liked to serve as my website. Includes some interesting dark mode & MermaidJS hacks.
+
 
 
 ---

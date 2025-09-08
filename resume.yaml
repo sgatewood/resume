@@ -142,22 +142,16 @@ projects:
   - name: This Resume
     dates: February 2022 - present
     link: "https://github.com/sgatewood/resume"
-    notes:
-      - I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)
+    description: 'Written in YAML and templated into the document you are reading. :-)'
   - name: JobDeployment controller
     dates: Summer 2025
     link: https://github.com/sgatewood/job-deployment
-    notes:
-      - Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a>
+    description: 'Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a> to solve a DX problem with deploying Job objects in helm charts.'
   - name: gcloud-fzf
     dates: Spring 2025
     link: https://github.com/sgatewood/gcloud-fzf
-    notes:
-      - Made a go CLI that I wanted for a hyper-specific use case
-      - The interesting piece is I can install it through my own homebrew tap!
+    description: Wrote a Go CLI I wanted. The interesting part is I actually distributed it via homebrew.
   - name: Portfolio site
     dates: Spring 2022
     link: https://sgatewood.github.io
-    notes:
-      - Sorta abused an old Jekyll theme I liked to serve as a portfolio site
-      - Includes some interesting hacks including dark mode and some MermaidJS magic
+    description: Used an old Jekyll theme I liked to serve as my website. Includes some interesting dark mode & MermaidJS hacks.

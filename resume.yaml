@@ -35,9 +35,9 @@ experience:
       - Orchestrated a complex blockchain migration process in the deployment automation, reducing required live-on-zoom code changes down to 0.
       - Migrated our node's cluster across GCP regions with only 2 minutes of downtime.
       - Instrumented monitoring/alerts with DataDog to maintain 99.5% uptime and tune our configuration to minimize cloud costs.
-      - Communicated deployment designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network. 
-      - Mentored 2 teammates on how the validator deployment worked so they could contribute to the codebase and participate in support rotations. 
-      - Authored a Prometheus metrics exporter in Go, providing a programmatic framework for custom metrics. Closed 8 critical gaps in production observability. 
+      - Communicated deployment designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network.
+      - Mentored 2 teammates on how the validator deployment worked so they could contribute to the codebase and participate in support rotations.
+      - Authored a Prometheus metrics exporter in Go, providing a programmatic framework for custom metrics. Closed 8 critical gaps in production observability.
       - Authored a Kubernetes operator in Go to streamline our backup/restore process, eliminating operational tasks on a product entering maintenance mode.
       - Migrated Kubernetes manifests from a legacy system to public helm charts, allowing external customers to deploy our product.
       - Orchestrated our internal helm installations using Helmfile to reduce our deployment process from 35 commands to 1 and pave the way for using GitOps.

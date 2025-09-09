@@ -90,21 +90,20 @@
 		</table>
 
     <h2 class="section-header">Side Projects</h2>
-    {% for project in projects if not project.get("hide-from-pdf",False) %}
-    <h3>
-      {% if 'link' in project %}
-      <a href="{{ project.link }}">{{ project.name }}</a>
-      {% else %}
-      {{ project.name }}
-      {% endif %}
-      <span class="date">
-        {{ project.dates }}
-      </span>
-    </h3>
     <ul>
-      <li>{{ project.notes | join('</li>\n\t\t\t<li>') }}</li>
-    </ul>
+    {% for project in projects if not project.get("hide-from-pdf",False) %}
+    <li>
+	 <strong>
+	   {% if 'link' in project %}
+	   <a href="{{ project.link }}">{{ project.name }}</a>:
+	   {% else %}
+	   {{ project.name }}:
+	   {% endif %}
+	 </strong>
+	 {{ project.description }}
+    </li>
     {% endfor %}
+    </ul>
 
     <h2 class="section-header" id="education">Education</h2>
     <p>

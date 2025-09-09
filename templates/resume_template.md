@@ -38,9 +38,10 @@
 
 ## 💻 Projects
 {% for project in projects %}
-#### **{% if 'link' in project %}[{{ project.name }}]({{ project.link }}){% else %}{{ project.name }}{% endif %}**
-{{ project.dates }}
-- {{ project.notes | join('\n- ') }}
+#### **{% if 'link' in project %}[{{ project.name }}]({{ project.link }}){% else %}{{ project.name }}{% endif %}** ({{ project.dates }})
+
+{{ project.description }}
+
 {% endfor %}
 
 ---

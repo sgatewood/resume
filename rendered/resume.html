@@ -23,24 +23,38 @@
     
     <h3 class="job-line">DevOps Engineer, <span class="job-details">Digital Asset (New York, NY / remote)</span> <span class="date">April 2023 - present</span></h3>
     <ul>
-      <li>Develop and maintain infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize manual operational toil.</li>
-			<li>Automated the deployment of a new mission-critical service in a dedicated GKE cluster with all supporting cloud infrastructure. Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments and orchestrate complex blockchain migrations. Instrumented monitoring/alerts with DataDog and regularly use it to tune our configuration. Communicated designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network. Uptime requirements were extremely high -- any downtime required auditing financial losses.</li>
-			<li>Expanded production monitoring capabilities by authoring a custom Prometheus metrics exporter in Go, providing a programmatic framework to close critical gaps in observability.</li>
-			<li>Authored a custom k8s operator in Go to streamline our backup/restore process, eliminating manual operational tasks on a product that was entering maintenance mode.</li>
+      <li>Developed infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize operational toil.</li>
+			<li>Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment and management of a core validator node.</li>
+			<li>Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments in a flexible manner, enabling the success of more than 70 weekly upgrades.</li>
+			<li>Orchestrated a complex blockchain migration process in the deployment automation, reducing required live-on-zoom code changes down to 0.</li>
+			<li>Migrated our node's cluster across GCP regions with only 2 minutes of downtime.</li>
+			<li>Instrumented monitoring/alerts with DataDog to maintain 99.5% uptime and tune our configuration to minimize cloud costs.</li>
+			<li>Communicated deployment designs with partner companies, helping them overcome similar hurdles and accelerating the launch of our blockchain network.</li>
+			<li>Mentored 2 teammates on how the validator deployment worked so they could contribute to the codebase and participate in support rotations.</li>
+			<li>Authored a Prometheus metrics exporter in Go, providing a programmatic framework for custom metrics. Closed 8 critical gaps in production observability.</li>
+			<li>Authored a Kubernetes operator in Go to streamline our backup/restore process, eliminating operational tasks on a product entering maintenance mode.</li>
+			<li>Migrated Kubernetes manifests from a legacy system to public helm charts, allowing external customers to deploy our product.</li>
+			<li>Orchestrated our internal helm installations using Helmfile to reduce our deployment process from 35 commands to 1 and pave the way for using GitOps.</li>
+			<li>Built isolated blockchain test environments in both k3d (for local dev) and vClusters, allowing developers to effortlessly spin up fully independent networks.</li>
 			<li>Developed CI/CD pipelines using Google Cloud Build and CircleCI.</li>
 			<li>Participated in on-call rotations, triaging a multitude of production alerts and maintaining the reliability of our services.</li>
-			<li>Built isolated blockchain test environments in both k3d (for local dev) and vClusters, enabling developers to effortlessly spin up fully independent networks.</li>
     </ul>
     
     <h3 class="job-line">Software Engineer II, <span class="job-details">Appian Corporation (McLean, VA / remote)</span> <span class="date">August 2020 - April 2023</span></h3>
     <ul>
-      <li>Worked on a Development Experience team that created and maintained a variety of developer tooling and infrastructure, gaining a unique perspective on usability that continues to shape my tooling designs today.</li>
-			<li>Contributed to a remote development solution, including a custom Kubernetes service to lease EC2s and a python tool to build/develop/test the product remotely (rather than on your own machine).</li>
-			<li>Architected and developed a Gitlab pipeline to precook warm builds that developers could take and use instantly rather than waiting to build from source, providing an extremely fast setup to "test something on a recent main build."</li>
+      <li>Worked on a Development Experience team that owned a variety of tooling and infrastructure to accelerate and modernize development workflows.</li>
+			<li>Contributed to a remote development platform allowing devs to build/develop/test on dedicated EC2s, improving cycle time and stability by at least 50%.</li>
+			<li>Built a Gitlab pipeline to precook warm builds that devs could take and use instantly, reducing startup time from ~12m to ~5s for many common test cases.</li>
+			<li>Architected a separate mode using <a href="https://mutagen.io/documentation/synchronization/">Mutagen</a> to enable bi-directional file syncing and enhance stability.</li>
+			<li>Deployed a LaunchDarkly <a href="https://launchdarkly.com/docs/sdk/relay-proxy">relay proxy</a> in Kubernetes, satisfying a FedRAMP security requirement for our modern feature toggles initiative.</li>
+			<li>Contributed to a team effort to integrate LaunchDarkly with a legacy product, including developing our own Java client.</li>
 			<li>Regularly initiated & led architectural design discussions, and spiked a wide variety of prototypes.</li>
 			<li>Regularly unblocked developers by assisting in troubleshooting technical issues, improving our local build stability.</li>
+			<li>Utilized an ELK stack to collect diagnostics from our development tool, greatly enhancing visibility into command utilization and user flows.</li>
+			<li>Enhanced our documentation by injecting Matplotlib graphs (refreshed daily via Gitlab deployment pipeline) to show metrics on our codebase over time.</li>
 			<li>Treasured high code quality standards and contributed to our data-driven goal to lead the department in code quality.</li>
 			<li>Mentored two interns as a Summer Intern Manager, meeting with them weekly to optimize their internship experience.</li>
+			<li>Gained a high standard for usability that continues to shape my tooling designs today.</li>
     </ul>
     
     <h3 class="job-line">Teaching Assistant - Introduction to Programming, <span class="job-details">University of Virginia (Charlottesville, VA)</span> <span class="date">Fall 2017 - May 2020</span></h3>
@@ -114,57 +128,45 @@
 		</table>
 
     <h2 class="section-header">Side Projects</h2>
-    
-    <h3>
-      
-      <a href="https://github.com/sgatewood/resume">This Resume</a>
-      
-      <span class="date">
-        February 2022 - present
-      </span>
-    </h3>
     <ul>
-      <li>I didn't have Microsoft Word anymore, so I wrote this in YAML and rendered it into the document you are reading. :-)</li>
-    </ul>
     
-    <h3>
-      
-      <a href="https://github.com/sgatewood/job-deployment">JobDeployment controller</a>
-      
-      <span class="date">
-        Summer 2025
-      </span>
-    </h3>
-    <ul>
-      <li>Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a></li>
-    </ul>
+    <li>
+	 <strong>
+	   
+	   <a href="https://github.com/sgatewood/resume">This Resume</a>:
+	   
+	 </strong>
+	 Written in YAML and templated into the document you are reading. :-)
+    </li>
     
-    <h3>
-      
-      <a href="https://github.com/sgatewood/gcloud-fzf">gcloud-fzf</a>
-      
-      <span class="date">
-        Spring 2025
-      </span>
-    </h3>
-    <ul>
-      <li>Made a go CLI that I wanted for a hyper-specific use case</li>
-			<li>The interesting piece is I can install it through my own homebrew tap!</li>
-    </ul>
+    <li>
+	 <strong>
+	   
+	   <a href="https://github.com/sgatewood/job-deployment">JobDeployment controller</a>:
+	   
+	 </strong>
+	 Spiked an idea I had using <a href="https://book.kubebuilder.io/">kubebuilder</a> to solve a DX problem with deploying Job objects in helm charts.
+    </li>
     
-    <h3>
-      
-      <a href="https://sgatewood.github.io">Portfolio site</a>
-      
-      <span class="date">
-        Spring 2022
-      </span>
-    </h3>
-    <ul>
-      <li>Sorta abused an old Jekyll theme I liked to serve as a portfolio site</li>
-			<li>Includes some interesting hacks including dark mode and some MermaidJS magic</li>
-    </ul>
+    <li>
+	 <strong>
+	   
+	   <a href="https://github.com/sgatewood/gcloud-fzf">gcloud-fzf</a>:
+	   
+	 </strong>
+	 Wrote a Go CLI I wanted. The interesting part is I actually distributed it via homebrew.
+    </li>
     
+    <li>
+	 <strong>
+	   
+	   <a href="https://sgatewood.github.io">Portfolio site</a>:
+	   
+	 </strong>
+	 Used an old Jekyll theme I liked to serve as my website. Includes some interesting dark mode & MermaidJS hacks.
+    </li>
+    
+    </ul>
 
     <h2 class="section-header" id="education">Education</h2>
     <p>

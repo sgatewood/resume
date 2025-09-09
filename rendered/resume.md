@@ -8,7 +8,7 @@ hello@sgatewood.dev |
 
 ## 🔍 Summary
 
-Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> side of DevOps. I build scalable, reproducible, and reliable production environments with Kubernetes ecosystems, Infrastructure as Code, and CI/CD pipelines. I bring strong development skills to the infra world, elevating production environments with seamless automation, custom microservices, and even proactive application-level fixes.
+Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> side of DevOps. I build scalable, reproducible, and reliable production environments with Kubernetes ecosystems, Infrastructure as Code, and CI/CD pipelines. I bring strong development skills to the infra world, elevating production environments with seamless automation, custom microservices, proactive application-level fixes, and spikes that push the boundaries of what is possible.
 
 ---
 

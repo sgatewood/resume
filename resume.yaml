@@ -30,7 +30,7 @@ experience:
     dates: April 2023 - present
     notes:
       - Developed infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize operational toil.
-      - Played an instrumental role in the launch of our blockchain network by owning the deployment and management of a core validator node.
+      - Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment and management of a core validator node.
       - Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments in a flexible manner, enabling the success of more than 70 weekly upgrades.
       - Orchestrated a complex blockchain migration process in the deployment automation, reducing required live-on-zoom code changes down to 0.
       - Migrated our node's cluster across GCP regions with only 2 minutes of downtime.

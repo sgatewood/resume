@@ -24,14 +24,21 @@ education:
     - Introduction to Cybersecurity
     - Software Testing
 experience:
+  - title: Senior Software Engineer
+    company: Castellum.AI
+    location: New York, NY / remote
+    dates: October 2025 - Present
+    notes:
+      - Developing / hardening the full infrastructure story for a startup, while also contributing to core product features due to our small team.
+      - Modernizing deployment infrastructure, monitoring, developer tooling/environments, and CI/CD workflows. 
   - title: DevOps Engineer
     company: Digital Asset
     location: New York, NY / remote
-    dates: April 2023 - present
+    dates: April 2023 - October 2025
     notes:
       - Developed infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize operational toil.
-      - Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment and management of a core validator node.
-      - Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments in a flexible manner, enabling the success of more than 70 weekly upgrades.
+      - Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment and management of a core supervalidator node.
+      - Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments in a flexible manner, enabling the success of more than 70 weekly SV upgrades.
       - Orchestrated a complex blockchain migration process in the deployment automation, reducing required live-on-zoom code changes down to 0.
       - Migrated our node's cluster across GCP regions with less than 2 minutes of downtime.
       - Instrumented monitoring/alerts with DataDog to maintain 99.5% uptime and tune our configuration to minimize cloud costs.

@@ -1,5 +1,5 @@
 name: Sean Gatewood
-summary: Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> side of DevOps. I build scalable, reproducible, and reliable production environments with Kubernetes ecosystems, Infrastructure as Code, and CI/CD pipelines. I bring strong development skills to the infra world, elevating production environments with seamless automation, custom microservices, proactive application-level fixes, and spikes that push the boundaries of what is possible.
+summary: Senior DevOps / Platform Engineer with a focus on the <code>dev</code> side of DevOps. I build scalable, reproducible, and reliable production environments with Kubernetes ecosystems, Infrastructure as Code, and CI/CD pipelines. I bring strong development skills to the infra world, elevating production environments with seamless automation, custom microservices, proactive application-level fixes, and spikes that push the boundaries of what is possible.
 contact:
   email: hello@sgatewood.dev
   linkedin:
@@ -29,15 +29,16 @@ experience:
     location: New York, NY / remote
     dates: October 2025 - Present
     notes:
-      - Developing / hardening the full infrastructure story for a startup, while also contributing to core product features due to our small team.
+      - Developing / hardening the full infrastructure story for a startup, while also contributing to core product features.
       - Modernizing deployment infrastructure, monitoring, developer tooling/environments, and CI/CD workflows. 
+      - Reduced average CI pipeline time by ~60%, significantly improving developer iteration speed.
   - title: DevOps Engineer
     company: Digital Asset
     location: New York, NY / remote
     dates: April 2023 - October 2025
     notes:
       - Developed infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize operational toil.
-      - Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment and management of a core supervalidator node.
+      - Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment & management of a core SuperValidator node.
       - Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments in a flexible manner, enabling the success of more than 70 weekly SV upgrades.
       - Orchestrated a complex blockchain migration process in the deployment automation, reducing required live-on-zoom code changes down to 0.
       - Migrated our node's cluster across GCP regions with less than 2 minutes of downtime.
@@ -104,6 +105,7 @@ skills:
   cloud platforms:
     - GCP
     - AWS
+    - Digital Ocean
   cloud infra:
     - Compute (GKE Cluster, Node Pools, Persistent Disks, Snapshot Schedules, VMs)
     - Networking (VPC, Subnet, Cloud NAT, L7 Application Load Balancer, MCI, Cloud DNS, Google-Managed Certificates)

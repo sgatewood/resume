@@ -8,17 +8,23 @@ hello@sgatewood.dev |
 
 ## 🔍 Summary
 
-Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> side of DevOps. I build scalable, reproducible, and reliable production environments with Kubernetes ecosystems, Infrastructure as Code, and CI/CD pipelines. I bring strong development skills to the infra world, elevating production environments with seamless automation, custom microservices, proactive application-level fixes, and spikes that push the boundaries of what is possible.
+Senior DevOps / Platform Engineer with a focus on the <code>dev</code> side of DevOps. I build scalable, reproducible, and reliable production environments with Kubernetes ecosystems, Infrastructure as Code, and CI/CD pipelines. I bring strong development skills to the infra world, elevating production environments with seamless automation, custom microservices, proactive application-level fixes, and spikes that push the boundaries of what is possible.
 
 ---
 
 ## 💼 Experience
 
+#### **Senior Software Engineer**, Castellum.AI
+(New York, NY / remote) October 2025 - Present
+- Developing / hardening the full infrastructure story for a startup, while also contributing to core product features.
+- Modernizing deployment infrastructure, monitoring, developer tooling/environments, and CI/CD workflows.
+- Reduced average CI pipeline time by ~60%, significantly improving developer iteration speed.
+
 #### **DevOps Engineer**, Digital Asset
-(New York, NY / remote) April 2023 - present
+(New York, NY / remote) April 2023 - October 2025
 - Developed infrastructure and automation around critical kubernetes services, applying SRE practices to ensure reliability and minimize operational toil.
-- Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment and management of a core validator node.
-- Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments in a flexible manner, enabling the success of more than 70 weekly upgrades.
+- Played an instrumental role in the launch of our blockchain network by owning the greenfield deployment & management of a core SuperValidator node.
+- Utilized Terraform, Jsonnet, Bash, and Helm to automate deployments in a flexible manner, enabling the success of more than 70 weekly SV upgrades.
 - Orchestrated a complex blockchain migration process in the deployment automation, reducing required live-on-zoom code changes down to 0.
 - Migrated our node's cluster across GCP regions with less than 2 minutes of downtime.
 - Instrumented monitoring/alerts with DataDog to maintain 99.5% uptime and tune our configuration to minimize cloud costs.
@@ -71,7 +77,7 @@ Senior-leaning DevOps / Platform Engineer with a focus on the <code>dev</code> s
 (non-comprehensive)
 
 - **Languages:** Python, Bash, Go, Java, TypeScript, C++
-- **Cloud Platforms:** GCP, AWS
+- **Cloud Platforms:** GCP, AWS, Digital Ocean
 - **Kubernetes:** Helm, Helmfile, FluxCD, Istio, Custom Operators
 - **Monitoring:** Grafana, Prometheus, Datadog
 - **IaC:** Terraform, Pulumi

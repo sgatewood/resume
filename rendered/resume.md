@@ -19,6 +19,14 @@ Senior DevOps / Platform Engineer with a focus on the <code>dev</code> side of D
 - Developing / hardening the full infrastructure story for a startup, while also contributing to core product features.
 - Modernizing deployment infrastructure, monitoring, developer tooling/environments, and CI/CD workflows.
 - Reduced average CI pipeline time by ~60%, significantly improving developer iteration speed.
+- Migrated core Vertex (Google) AI integration from Go to a Python microservice and deployed it in Kubernetes.
+- Deployed the LiteLLM proxy in Kubernetes to make our AI integrations provider-agnostic, allowing us to switch providers easily as AI models and their pricing changes rapidly.
+- Utilized LiteLLM architecture to complete a formal benchmark of the big-name AI models, which allowed Marketing to show how each model performed on its own vs within our product, highlighting how our harness uplifts accuracy which encourages buying instead of building.
+- Set up a CDC service to sync Postgres to Elasticsearch in a continuous and durable fashion.
+- Provisioned Prometheus/Grafana stack in our clusters to quickly close critical gaps in observability.
+- Created dashboards and alerts on structured logs in Elastic Cloud.
+- Started our use of terraform to manage infrastructure using code instead of manual browser clicks.
+- Helped maintain SOC 2 compliance by orchestrating and completing a Disaster Recovery and addressing security/infrastructure audit findings.
 
 #### **DevOps Engineer**, Digital Asset
 (New York, NY / remote) April 2023 - October 2025

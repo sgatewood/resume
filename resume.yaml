@@ -30,7 +30,7 @@ experience:
     dates: October 2025 - Present
     notes:
       - Developing / hardening the full infrastructure story for a startup, while also contributing to core product features.
-      - Modernizing deployment infrastructure, monitoring, developer tooling/environments, and CI/CD workflows. 
+      - Modernizing deployment infrastructure, monitoring, developer tooling/environments, and CI/CD workflows.
       - Reduced average CI pipeline time by ~60%, significantly improving developer iteration speed.
       - Migrated core Vertex (Google) AI integration from Go to a Python microservice and deployed it in Kubernetes.
       - Deployed the LiteLLM proxy in K8s to make our AI integrations provider-agnostic, reducing vendor lock-in as AI models and pricing changes rapidly.

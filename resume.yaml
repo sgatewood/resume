@@ -38,7 +38,7 @@ experience:
       - Set up a CDC service to sync Postgres to Elasticsearch in a continuous and durable fashion.
       - Provisioned Prometheus/Grafana stack in our clusters to quickly close critical gaps in observability.
       - Created dashboards and alerts on structured logs in Elastic Cloud.
-      - Started our use of terraform to manage infrastructure using code instead of manual browser clicks.
+      - Started our use of Terraform to manage infrastructure using code instead of manual browser clicks.
       - Productionalized local dev utilizing direnv / nix / Justfile so each repo works out of the box for a new hire with a single command.
       - Helped maintain SOC 2 compliance by orchestrating and completing a Disaster Recovery and addressing security/infrastructure audit findings.
       - Utilized AI coding tools (Claude Code and Cursor) to rapidly implement solutions and triage incidents.
